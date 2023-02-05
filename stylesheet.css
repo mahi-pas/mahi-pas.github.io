@@ -150,10 +150,12 @@ input[type=button]{
     color: white;
     border-radius: 1vw;
     border-color: white;
-    width: 10vw;
-    height: 3vw;
+    padding: 0.6vw;
+    width: fit-content;
+    height: fit-content;
     background: rgba(35, 107, 42, 0.759);
     transition: all ease-in-out 250ms;
+
 }
 input[type=button]:hover{
     background: rgba(21, 78, 26, 0.759);
