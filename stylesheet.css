@@ -18,7 +18,7 @@ body{
 }
 
 .box{
-    width: 40rem;
+    width: 80vw;
     background: rgba(36, 35, 107, 0.759);
     padding: 1rem;
     text-align: center;
