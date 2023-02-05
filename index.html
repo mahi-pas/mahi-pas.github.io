@@ -3,10 +3,30 @@
     <title>Mahi's Personal Website</title>   
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/4d2032f030.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <nav>
+    <nav class="sidebar">
+        <div class="text">Menu</div>
+        <ul>
+            <li><a href="#">Resume</a></li>
+            <li>
+                <a href="#", class="portfolio-btn">Portfolios
+                    <span class="fas fa-caret-down first" align="right"></span>
+                </a>
+                <ul class = "portfolio-show">
+                    <li><a href="#">Programming</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Music</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Contact Me!</a></li>
+        </ul>
+    </nav>
     <center>
         <div class="box">
             <h1>Mahi Pasarkar</h1>

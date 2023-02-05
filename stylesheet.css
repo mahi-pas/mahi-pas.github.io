@@ -1,3 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.sidebar{
+    margin-top: 0%;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    left: 0;
+    background:rgba(36, 35, 107, 0.759);
+}
+
+.sidebar .text{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left: 1vw;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 0.5vw solid transparent;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 255, 223);
+    background: rgba(35, 107, 42, 0.759);
+    border-left-color: rgb(11, 59, 15);
+}
+
+nav ul ul{
+    position: static;
+    display: none;
+}
+
+nav ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+
+nav ul ul li a{
+    font-size: 1.5vw;
+    /*color:*/
+    padding-left: 2.5vw 
+}
+
+nav ul li a span{
+    position: relative;
+    top: 50%;
+    left: 6vw;
+    transition: transform 0.4s;
+}
+
+nav ul li a:hover span{
+    transform: scale(1.2);
+}
+
+nav ul .portfolio-show.show{
+    display: block;
+}
+
 
 .box-img{
     border-radius: 50%;
@@ -48,6 +133,7 @@ body{
 
 .box li a:hover{
     color: rgb(142, 142, 142);
+    transform: scale(1.2);
 }
 
 :root{
