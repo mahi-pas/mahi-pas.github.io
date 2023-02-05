@@ -13,10 +13,16 @@
     height: 3vw;
     width: 3vw;
     background: rgba(36, 35, 107, 0.759);
-    border-radius: 30%;
+    border-radius: 0.3vw;
     text-align: center;
     cursor: pointer;
     transition: left 0.4s ease;
+}
+
+.bth:hover{
+    background: rgba(21, 78, 26, 0.759);
+    color: rgba(192, 210, 194, 0.759);
+    transform: scale(1.1);
 }
 
 .btn.click{
@@ -51,7 +57,7 @@
     color: white;
     font-size: 2rem;
     font-weight: 700;
-    line-height: 0.5rem;
+    line-height: 0.5vh;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -132,6 +138,7 @@ body{
     padding: 0;
     background: url(Images/bg.jpg) no-repeat;
     background-size: cover;
+    background-size: 100%;
 }
 
 .box h1{
@@ -151,6 +158,7 @@ input[type=button]{
 input[type=button]:hover{
     background: rgba(21, 78, 26, 0.759);
     color: rgba(192, 210, 194, 0.759);
+    transform: scale(1.1);
 }
 
 .box{
@@ -162,7 +170,7 @@ input[type=button]:hover{
     margin-top: 2%;
     color: white;
     font-family: Verdana, sans-serif;
-    border-radius: 2vw;
+    border-radius: 0.5vw;
 }
 
 .box ul{
@@ -185,7 +193,7 @@ input[type=button]:hover{
 
 .box li a:hover{
     color: rgb(142, 142, 142);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 :root{
