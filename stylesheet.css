@@ -1,3 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.btn{
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    height: 3vw;
+    width: 3vw;
+    background: rgba(36, 35, 107, 0.759);
+    border-radius: 30%;
+    text-align: center;
+    cursor: pointer;
+    transition: left 0.4s ease;
+}
+
+.btn.click{
+    left: 21vw;
+}
+
+.btn span{
+    color: white;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+.btn.click span:before{
+    content: '\f00d';
+}
+
+.sidebar{
+    margin-top: 0%;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    left: -20%;
+    background:rgba(36, 35, 107, 0.759);
+    transition: left 0.4s ease;
+}
+
+.sidebar.show{
+    left: 0%;
+}
+
+.sidebar .text{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left: 1vw;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 0.5vw solid transparent;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 255, 223);
+    background: rgba(35, 107, 42, 0.759);
+    border-left-color: rgb(11, 59, 15);
+}
+
+nav ul ul{
+    position: static;
+    display: none;
+}
+
+nav ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+
+nav ul ul li a{
+    font-size: 1.5vw;
+    /*color:*/
+    padding-left: 2.5vw 
+}
+
+nav ul li a span{
+    position: relative;
+    top: 50%;
+    left: 6vw;
+    transition: transform 0.4s;
+}
+
+nav ul li a:hover span{
+    transform: scale(1.2);
+}
+
+nav ul li a span.rotate{
+    transform: rotate(-180deg);
+}
+
+nav ul .portfolio-show.show{
+    display: block;
+}
+
 
 .box-img{
     border-radius: 50%;
@@ -17,6 +138,21 @@ body{
     font-size: 2rem;
 }
 
+input[type=button]{
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 1vw;
+    border-color: white;
+    width: 10vw;
+    height: 3vw;
+    background: rgba(35, 107, 42, 0.759);
+    transition: all ease-in-out 250ms;
+}
+input[type=button]:hover{
+    background: rgba(21, 78, 26, 0.759);
+    color: rgba(192, 210, 194, 0.759);
+}
+
 .box{
     width: 80vw;
     background: rgba(36, 35, 107, 0.759);
@@ -26,6 +162,7 @@ body{
     margin-top: 2%;
     color: white;
     font-family: Verdana, sans-serif;
+    border-radius: 2vw;
 }
 
 .box ul{
@@ -48,6 +185,7 @@ body{
 
 .box li a:hover{
     color: rgb(142, 142, 142);
+    transform: scale(1.2);
 }
 
 :root{
