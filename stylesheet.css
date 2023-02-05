@@ -18,8 +18,8 @@ body{
 }
 
 .box{
-    width: 50rem;
-    background: rgba(0,0,0,0.5);
+    width: 40rem;
+    background: rgba(35, 107, 87, 0.759);
     padding: 1rem;
     text-align: center;
     margin: auto;
