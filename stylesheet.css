@@ -138,6 +138,21 @@ body{
     font-size: 2rem;
 }
 
+input[type=button]{
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 1vw;
+    border-color: white;
+    width: 10vw;
+    height: 3vw;
+    background: rgba(35, 107, 42, 0.759);
+    transition: all ease-in-out 250ms;
+}
+input[type=button]:hover{
+    background: rgba(21, 78, 26, 0.759);
+    color: rgba(192, 210, 194, 0.759);
+}
+
 .box{
     width: 80vw;
     background: rgba(36, 35, 107, 0.759);
@@ -147,6 +162,7 @@ body{
     margin-top: 2%;
     color: white;
     font-family: Verdana, sans-serif;
+    border-radius: 2vw;
 }
 
 .box ul{
