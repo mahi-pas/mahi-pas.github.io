@@ -6,13 +6,45 @@
     font-family: Verdana, sans-serif;
 }
 
+.btn{
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    height: 3vw;
+    width: 3vw;
+    background: rgba(36, 35, 107, 0.759);
+    border-radius: 30%;
+    text-align: center;
+    cursor: pointer;
+    transition: left 0.4s ease;
+}
+
+.btn.click{
+    left: 21vw;
+}
+
+.btn span{
+    color: white;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+.btn.click span:before{
+    content: '\f00d';
+}
+
 .sidebar{
     margin-top: 0%;
     position: fixed;
     width: 20%;
     height: 100%;
-    left: 0;
+    left: -20%;
     background:rgba(36, 35, 107, 0.759);
+    transition: left 0.4s ease;
+}
+
+.sidebar.show{
+    left: 0%;
 }
 
 .sidebar .text{
@@ -77,6 +109,10 @@ nav ul li a span{
 
 nav ul li a:hover span{
     transform: scale(1.2);
+}
+
+nav ul li a span.rotate{
+    transform: rotate(-180deg);
 }
 
 nav ul .portfolio-show.show{
