@@ -222,7 +222,7 @@ main::-webkit-scrollbar-thumb{
 }
  
 /*mobile view*/
-@media only screen and (max-width: 767px) { 
+@media only screen and (orientation:portrait) { 
     .sidebar{
         margin-top: 0%;
         position: fixed;
@@ -335,6 +335,24 @@ main::-webkit-scrollbar-thumb{
         text-align: center;
         cursor: pointer;
         transition: left 0.4s ease;
+    }
+
+    input[type=button]{
+        font-size: 3vw;
+        color: white;
+        border-radius: 1vw;
+        border-color: white;
+        padding: 0.6vw;
+        width: fit-content;
+        height: fit-content;
+        background: rgba(35, 107, 42, 0.759);
+        transition: all ease-in-out 250ms;
+    
+    }
+    input[type=button]:hover{
+        background: rgba(21, 78, 26, 0.759);
+        color: rgba(192, 210, 194, 0.759);
+        transform: scale(1.1);
     }
 }
 
