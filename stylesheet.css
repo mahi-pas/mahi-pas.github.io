@@ -201,15 +201,15 @@ input[type=button]:hover{
 }
 
 .box h1{
-    font-size: 6vh;
+    font-size: 6vw;
 }
 
 .box h4{
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 .box p{
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 .box-img{
