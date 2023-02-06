@@ -146,10 +146,6 @@ body{
     
 }
 
-.box h1{
-    font-size: 3vw;
-}
-
 input[type=button]{
     font-size: 1.4vw;
     color: white;
@@ -195,13 +191,31 @@ input[type=button]:hover{
 
 .box li a{
     color: white;
-    font-size: 5vw;
+    font-size: 6vh;
     transition: all ease-in-out 250ms;
 }
 
 .box li a:hover{
     color: rgb(142, 142, 142);
     transform: scale(1.1);
+}
+
+.box h1{
+    font-size: 6vh;
+}
+
+.box h4{
+    font-size: 3vh;
+}
+
+.box p{
+    font-size: 3vh;
+}
+
+.box-img{
+    border-radius: 50%;
+    width:20vh;
+    height:20vh;
 }
 
 :root{
@@ -242,9 +256,9 @@ main::-webkit-scrollbar-thumb{
     
     .sidebar .text{
         color: white;
-        font-size: 4vh;
+        font-size: 6vh;
         font-weight: 700;
-        line-height: 0.5vh;
+        line-height: -0.5vh;
         text-align: center;
         letter-spacing: 1px;
     }
@@ -356,19 +370,6 @@ main::-webkit-scrollbar-thumb{
         background: rgba(21, 78, 26, 0.759);
         color: rgba(192, 210, 194, 0.759);
         transform: scale(1.1);
-    }
-    .box{
-        width: 80vw;
-        height: 90%;
-        background: rgba(36, 35, 107, 0.759);
-        padding: 1vw;
-        text-align: center;
-        margin: auto;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        color: white;
-        font-family: Verdana, sans-serif;
-        border-radius: 0.5vw;
     }
     
 }
