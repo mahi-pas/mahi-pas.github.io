@@ -137,8 +137,11 @@ body{
     margin: 0;
     padding: 0;
     background: url(Images/bg.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-size: 100%;
+    
 }
 
 .box h1{
@@ -166,7 +169,7 @@ input[type=button]:hover{
 .box{
     width: 80vw;
     background: rgba(36, 35, 107, 0.759);
-    padding: 1rem;
+    padding: 1vw;
     text-align: center;
     margin: auto;
     margin-top: 2%;
@@ -216,5 +219,122 @@ main::-webkit-scrollbar-track{
 
 main::-webkit-scrollbar-thumb{
     background: rgb(38, 164, 65);
+}
+ 
+/*mobile view*/
+@media only screen and (max-width: 767px) { 
+    .sidebar{
+        margin-top: 0%;
+        position: fixed;
+        width: 80%;
+        height: 100%;
+        left: -80%;
+        background:rgba(36, 35, 107, 0.759);
+        transition: left 0.4s ease;
+    }
+    
+    .sidebar.show{
+        left: 0%;
+    }
+    
+    .sidebar .text{
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 0.5vh;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    
+    nav ul{
+        height: 100%;
+        width: 100%;
+        list-style: none;
+    }
+    
+    nav ul li{
+        line-height: 15vh;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 4vw;
+        padding-left: 1vw;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        border-left: 1vw solid transparent;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(219, 255, 223);
+        background: rgba(35, 107, 42, 0.759);
+        border-left-color: rgb(11, 59, 15);
+    }
+    
+    nav ul ul{
+        position: static;
+        display: none;
+    }
+    
+    nav ul ul li{
+        line-height: 42px;
+        border-bottom: none;
+    }
+    
+    nav ul ul li a{
+        font-size: 3vw;
+        /*color:*/
+        padding-left: 2.5vw 
+    }
+    
+    nav ul li a span{
+        position: relative;
+        top: 50%;
+        left: 53vw;
+        transition: transform 0.4s;
+    }
+    
+    nav ul li a:hover span{
+        transform: scale(1.2);
+    }
+    
+    nav ul li a span.rotate{
+        transform: rotate(-180deg);
+    }
+    
+    nav ul .portfolio-show.show{
+        display: block;
+    }
+
+    .btn.click{
+        left: 81%;
+    }
+    
+    .btn span{
+        color: white;
+        font-size: 4vw;
+        line-height: 2vh;
+    }
+    
+    .btn.click span:before{
+        content: '\f00d';
+    }
+
+    .btn{
+        position: absolute;
+        top: 1vh;
+        left: 1vw;
+        height: 7vw;
+        width: 7vw;
+        background: rgba(36, 35, 107, 0.759);
+        padding: 1.7vw;
+        border-radius: 0.3vw;
+        text-align: center;
+        cursor: pointer;
+        transition: left 0.4s ease;
+    }
 }
 
