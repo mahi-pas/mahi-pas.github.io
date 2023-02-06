@@ -145,7 +145,7 @@ body{
 }
 
 .box h1{
-    font-size: 2rem;
+    font-size: 3vw;
 }
 
 input[type=button]{
@@ -168,6 +168,7 @@ input[type=button]:hover{
 
 .box{
     width: 80vw;
+    height: 90%;
     background: rgba(36, 35, 107, 0.759);
     padding: 1vw;
     text-align: center;
@@ -186,13 +187,13 @@ input[type=button]:hover{
 
 .box li{
     display: inline-block;
-    margin: 6px;
+    margin: 2vw;
     list-style: none;
 }
 
 .box li a{
     color: white;
-    font-size: 40px;
+    font-size: 5vw;
     transition: all ease-in-out 250ms;
 }
 
@@ -206,7 +207,7 @@ input[type=button]:hover{
 }
 
 main{
-    margin-left: 5rem;
+    margin-left: 1vw;
 }
 
 main::-webkit-scrollbar{
