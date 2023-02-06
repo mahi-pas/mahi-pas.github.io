@@ -55,11 +55,12 @@
 
 .sidebar .text{
     color: white;
-    font-size: 2rem;
+    font-size: 5vh;
     font-weight: 700;
-    line-height: 0.5vh;
+    line-height: -1vh;
     text-align: center;
     letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 nav ul{
@@ -128,8 +129,8 @@ nav ul .portfolio-show.show{
 
 .box-img{
     border-radius: 50%;
-    width:10rem;
-    height:10rem;
+    width:13vw;
+    height:13vw;
 }
 
 body{
@@ -174,7 +175,7 @@ input[type=button]:hover{
     padding: 1vw;
     text-align: center;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 0vh;
     color: white;
     font-family: Verdana, sans-serif;
     border-radius: 0.5vw;
@@ -212,7 +213,7 @@ main{
 }
 
 main::-webkit-scrollbar{
-    width: 0.25rem;
+    width: 1vw;
 }
 
 main::-webkit-scrollbar-track{
@@ -241,7 +242,7 @@ main::-webkit-scrollbar-thumb{
     
     .sidebar .text{
         color: white;
-        font-size: 2rem;
+        font-size: 4vh;
         font-weight: 700;
         line-height: 0.5vh;
         text-align: center;
@@ -262,7 +263,7 @@ main::-webkit-scrollbar-thumb{
     nav ul li a{
         color: white;
         text-decoration: none;
-        font-size: 4vw;
+        font-size: 5vw;
         padding-left: 1vw;
         font-weight: 500;
         display: block;
@@ -283,11 +284,11 @@ main::-webkit-scrollbar-thumb{
     
     nav ul ul li{
         line-height: 42px;
-        border-bottom: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
     
     nav ul ul li a{
-        font-size: 3vw;
+        font-size: 4vw;
         /*color:*/
         padding-left: 2.5vw 
     }
@@ -295,7 +296,7 @@ main::-webkit-scrollbar-thumb{
     nav ul li a span{
         position: relative;
         top: 50%;
-        left: 53vw;
+        left: 43vw;
         transition: transform 0.4s;
     }
     
@@ -356,5 +357,19 @@ main::-webkit-scrollbar-thumb{
         color: rgba(192, 210, 194, 0.759);
         transform: scale(1.1);
     }
+    .box{
+        width: 80vw;
+        height: 90%;
+        background: rgba(36, 35, 107, 0.759);
+        padding: 1vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        color: white;
+        font-family: Verdana, sans-serif;
+        border-radius: 0.5vw;
+    }
+    
 }
 
