@@ -6,6 +6,7 @@
     font-family: Verdana, sans-serif;
 }
 
+/* Menu button */
 .btn{
     position: absolute;
     top: 1vh;
@@ -39,6 +40,7 @@
     content: '\f00d';
 }
 
+/* Dynamic Menu */
 .sidebar{
     margin-top: 0%;
     position: fixed;
@@ -63,6 +65,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Navigation Fields */
 nav ul{
     height: 100%;
     width: 100%;
@@ -74,6 +77,7 @@ nav ul li{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Selection */
 nav ul li a{
     color: white;
     text-decoration: none;
@@ -97,10 +101,11 @@ nav ul ul{
 }
 
 nav ul ul li{
-    line-height: 42px;
-    border-bottom: none;
+    line-height: 10vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Sub-selection */
 nav ul ul li a{
     font-size: 1.5vw;
     /*color:*/
@@ -127,11 +132,6 @@ nav ul .portfolio-show.show{
 }
 
 
-.box-img{
-    border-radius: 50%;
-    width:13vw;
-    height:13vw;
-}
 
 body{
     font-family: Verdana, sans-serif;
@@ -146,6 +146,7 @@ body{
     
 }
 
+/* Dynamic Buttons */
 input[type=button]{
     font-size: 1.4vw;
     color: white;
@@ -164,9 +165,16 @@ input[type=button]:hover{
     transform: scale(1.1);
 }
 
+/* Blue display box*/
+.box-img{
+    border-radius: 50%;
+    width:13vw;
+    height:13vw;
+}
+
 .box{
     width: 80vw;
-    height: 90%;
+    height: fit-content;
     background: rgba(36, 35, 107, 0.759);
     padding: 1vw;
     text-align: center;
@@ -174,7 +182,7 @@ input[type=button]:hover{
     margin-top: 0vh;
     color: white;
     font-family: Verdana, sans-serif;
-    border-radius: 0.5vw;
+    border-radius: 0.5vh;
 }
 
 .box ul{
@@ -185,7 +193,7 @@ input[type=button]:hover{
 
 .box li{
     display: inline-block;
-    margin: 2vw;
+    margin: 2vh;
     list-style: none;
 }
 
@@ -201,15 +209,15 @@ input[type=button]:hover{
 }
 
 .box h1{
-    font-size: 6vw;
+    font-size: 6vh;
 }
 
 .box h4{
-    font-size: 3vw;
+    font-size: 3vh;
 }
 
 .box p{
-    font-size: 3vw;
+    font-size: 3vh;
 }
 
 .box-img{
@@ -226,6 +234,7 @@ main{
     margin-left: 1vw;
 }
 
+/* Scrollbar */
 main::-webkit-scrollbar{
     width: 1vw;
 }
@@ -240,55 +249,22 @@ main::-webkit-scrollbar-thumb{
  
 /*mobile view*/
 @media only screen and (orientation:portrait) { 
+    /* Navigation Fields */
     .sidebar{
-        margin-top: 0%;
-        position: fixed;
+        /* Make go out further */
         width: 80%;
-        height: 100%;
         left: -80%;
-        background:rgba(36, 35, 107, 0.759);
-        transition: left 0.4s ease;
-    }
-    
-    .sidebar.show{
-        left: 0%;
-    }
-    
-    .sidebar .text{
-        color: white;
-        font-size: 6vh;
-        font-weight: 700;
-        line-height: -0.5vh;
-        text-align: center;
-        letter-spacing: 1px;
-    }
-    
-    nav ul{
-        height: 100%;
-        width: 100%;
-        list-style: none;
     }
     
     nav ul li{
         line-height: 15vh;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
     
     nav ul li a{
-        color: white;
-        text-decoration: none;
-        font-size: 5vw;
+        font-size: 8vw;
         padding-left: 1vw;
-        font-weight: 500;
-        display: block;
         width: 100%;
         border-left: 1vw solid transparent;
-    }
-    
-    nav ul li a:hover{
-        color: rgb(219, 255, 223);
-        background: rgba(35, 107, 42, 0.759);
-        border-left-color: rgb(11, 59, 15);
     }
     
     nav ul ul{
@@ -296,49 +272,24 @@ main::-webkit-scrollbar-thumb{
         display: none;
     }
     
-    nav ul ul li{
-        line-height: 42px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    
     nav ul ul li a{
-        font-size: 4vw;
+        font-size: 4vh;
         /*color:*/
-        padding-left: 2.5vw 
+        padding-left: 8vh; 
     }
     
     nav ul li a span{
         position: relative;
         top: 50%;
-        left: 43vw;
+        left: 33vw;
         transition: transform 0.4s;
     }
-    
-    nav ul li a:hover span{
-        transform: scale(1.2);
-    }
-    
-    nav ul li a span.rotate{
-        transform: rotate(-180deg);
-    }
-    
-    nav ul .portfolio-show.show{
-        display: block;
-    }
 
+    /* Open Menu button */
     .btn.click{
         left: 81%;
     }
-    
-    .btn span{
-        color: white;
-        font-size: 4vw;
-        line-height: 2vh;
-    }
-    
-    .btn.click span:before{
-        content: '\f00d';
-    }
+
 
     .btn{
         position: absolute;
@@ -354,6 +305,7 @@ main::-webkit-scrollbar-thumb{
         transition: left 0.4s ease;
     }
 
+    /* Dynamic Button */
     input[type=button]{
         font-size: 3vw;
         color: white;
