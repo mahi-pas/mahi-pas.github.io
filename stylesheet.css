@@ -182,7 +182,7 @@ input[type=button]:hover{
     margin-top: 0vh;
     color: white;
     font-family: Verdana, sans-serif;
-    border-radius: 0.5vh;
+    border-radius: 0.5vw;
 }
 
 .box ul{
@@ -193,13 +193,13 @@ input[type=button]:hover{
 
 .box li{
     display: inline-block;
-    margin: 2vh;
+    margin: 2vw;
     list-style: none;
 }
 
 .box li a{
     color: white;
-    font-size: 6vh;
+    font-size: 6vw;
     transition: all ease-in-out 250ms;
 }
 
@@ -209,21 +209,21 @@ input[type=button]:hover{
 }
 
 .box h1{
-    font-size: 6vh;
+    font-size: 4vw;
 }
 
 .box h4{
-    font-size: 3vh;
+    font-size: 3vw;
 }
 
 .box p{
-    font-size: 3vh;
+    font-size: 2vw;
 }
 
 .box-img{
     border-radius: 50%;
-    width:20vh;
-    height:20vh;
+    width:10vw;
+    height:10vw;
 }
 
 :root{
@@ -305,6 +305,11 @@ main::-webkit-scrollbar-thumb{
         transition: left 0.4s ease;
     }
 
+    .btn span{
+        font-size: 4vw;
+        line-height: 3.5vw;
+    }
+
     /* Dynamic Button */
     input[type=button]{
         font-size: 3vw;
@@ -322,6 +327,25 @@ main::-webkit-scrollbar-thumb{
         background: rgba(21, 78, 26, 0.759);
         color: rgba(192, 210, 194, 0.759);
         transform: scale(1.1);
+    }
+
+    /* Content Box */
+    .box h1{
+        font-size: 6vw;
+    }
+    
+    .box h4{
+        font-size: 5vw;
+    }
+    
+    .box p{
+        font-size: 4vw;
+    }
+    
+    .box-img{
+        border-radius: 50%;
+        width:20vw;
+        height:20vw;
     }
     
 }
