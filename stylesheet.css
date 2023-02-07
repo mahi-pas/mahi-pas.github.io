@@ -18,12 +18,12 @@
     text-align: center;
     cursor: pointer;
     transition: left 0.4s ease;
+    transition: right 0.4 ease-in-out;
 }
 
 .bth:hover{
     background: rgba(21, 78, 26, 0.759);
     color: rgba(192, 210, 194, 0.759);
-    transform: scale(1.1);
 }
 
 .btn.click{
@@ -75,6 +75,11 @@ nav ul{
 nav ul li{
     line-height: 15vh;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all ease-in-out 250ms;
+}
+
+nav ul li:hover{
+    line-height: 20vh;
 }
 
 /* Selection */
@@ -103,6 +108,11 @@ nav ul ul{
 nav ul ul li{
     line-height: 10vh;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all ease-in-out 250ms;
+}
+
+nav ul ul li:hover{
+    line-height: 12vh;
 }
 
 /* Sub-selection */
@@ -161,7 +171,7 @@ input[type=button]{
 input[type=button]:hover{
     background: rgba(21, 78, 26, 0.759);
     color: rgba(192, 210, 194, 0.759);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* Blue display box*/
@@ -204,7 +214,7 @@ input[type=button]:hover{
 
 .box li a:hover{
     color: rgb(142, 142, 142);
-    transform: scale(1.1);
+    font-size: 7.5vw;
 }
 
 .box h1{
@@ -316,11 +326,6 @@ main::-webkit-scrollbar-thumb{
         background: rgba(35, 107, 42, 0.759);
         transition: all ease-in-out 250ms;
     
-    }
-    input[type=button]:hover{
-        background: rgba(21, 78, 26, 0.759);
-        color: rgba(192, 210, 194, 0.759);
-        transform: scale(1.1);
     }
 
     /* Content Box */
