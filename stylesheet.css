@@ -73,7 +73,7 @@ nav ul{
 }
 
 nav ul li{
-    line-height: 60px;
+    line-height: 15vh;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -254,10 +254,6 @@ main::-webkit-scrollbar-thumb{
         /* Make go out further */
         width: 80%;
         left: -80%;
-    }
-    
-    nav ul li{
-        line-height: 15vh;
     }
     
     nav ul li a{
