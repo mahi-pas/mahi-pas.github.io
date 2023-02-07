@@ -277,7 +277,7 @@ main::-webkit-scrollbar-thumb{
     nav ul li a span{
         position: relative;
         top: 50%;
-        left: 33vw;
+        left: 30vw;
         transition: transform 0.4s;
     }
 
