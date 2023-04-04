@@ -8,11 +8,6 @@
     transition: all ease-in-out 250ms;
 }
 
-.box-img:hover {
-    width:14vw;
-    height:14vw;
-}
-
 .box{
     width: 80vw;
     height: fit-content;
@@ -54,17 +49,9 @@
     transition: all ease-in-out 250ms;
 }
 
-.box h1:hover{
-    font-size: 4.2vw;
-}
-
 .box h4{
     font-size: 3vw;
     transition: all ease-in-out 250ms;
-}
-
-.box h4:hover{
-    font-size: 3.1vw;
 }
 
 .box p{
