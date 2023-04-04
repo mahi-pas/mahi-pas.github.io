@@ -1,0 +1,81 @@
+/* display box*/
+.box-img{
+    border-radius: 50%;
+    width:13vw;
+    height:13vw;
+}
+
+.box{
+    width: 80vw;
+    height: fit-content;
+    background: rgba(36, 35, 107, 0.759);
+    padding: 1vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 0vh;
+    color: white;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5vw;
+}
+
+.box ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li{
+    display: inline-block;
+    margin: 2vw;
+    list-style: none;
+}
+
+.box li a{
+    color: white;
+    font-size: 6vw;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+    color: rgb(142, 142, 142);
+    font-size: 7.5vw;
+}
+
+.box h1{
+    font-size: 4vw;
+}
+
+.box h4{
+    font-size: 3vw;
+}
+
+.box p{
+    font-size: 2vw;
+}
+
+.box-img{
+    border-radius: 50%;
+    width:10vw;
+    height:10vw;
+}
+
+@media only screen and (orientation:portrait) {
+    /* Content Box */
+    .box h1{
+        font-size: 6vw;
+    }
+    
+    .box h4{
+        font-size: 5vw;
+    }
+    
+    .box p{
+        font-size: 4vw;
+    }
+    
+    .box-img{
+        border-radius: 50%;
+        width:20vw;
+        height:20vw;
+    }
+}
