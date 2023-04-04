@@ -1,12 +1,13 @@
 
 
 :root {
-    --main-bg: url(Images/bg.jpg);
-    --panel-color: rgba(36, 35, 107, 0.759);
-    --text-color: white;
-    --complement-color: rgba(35, 107, 42, 0.759);
-    --complement-hover-color: rgba(21, 78, 26, 0.759);
-    --complement-text-color: rgb(219, 255, 223);
-    --complement-dark-color: rgb(11, 59, 15);
+    --main-bg: #309083;
+    --panel-color: #85dcb8;
+    --text-color: #155f55;
+    --text-hover-color: #0b453d;
+    --complement-color: #E8A87C;
+    --complement-hover-color: #e27d60;
+    --complement-text-color: #ffeee2;
+    --complement-dark-color: #a85037;
     --border-color: rgba(255, 255, 255, 0.3);
 }

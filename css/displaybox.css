@@ -39,7 +39,7 @@
 }
 
 .box li a:hover{
-    color: rgb(142, 142, 142);
+    color: var(--text-hover-color);
     font-size: 7.5vw;
 }
 
