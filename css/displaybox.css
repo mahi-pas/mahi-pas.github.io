@@ -1,3 +1,5 @@
+@import "css/theme.css";
+
 /* display box*/
 .box-img{
     border-radius: 50%;
@@ -8,12 +10,12 @@
 .box{
     width: 80vw;
     height: fit-content;
-    background: rgba(36, 35, 107, 0.759);
+    background: var(--panel-color);
     padding: 1vw;
     text-align: center;
     margin: auto;
     margin-top: 0vh;
-    color: white;
+    color: var(--text-color);
     font-family: Verdana, sans-serif;
     border-radius: 0.5vw;
 }
@@ -31,7 +33,7 @@
 }
 
 .box li a{
-    color: white;
+    color: var(--text-color);
     font-size: 6vw;
     transition: all ease-in-out 250ms;
 }

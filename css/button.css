@@ -1,34 +1,27 @@
+@import "css/theme.css";
+
 /* Dynamic Buttons */
 input[type=button]{
     font-size: 1.4vw;
-    color: white;
+    color: var(--text-color);
     border-radius: 1vw;
-    border-color: white;
+    border-color: var(--text-color);
     padding: 0.6vw;
     width: fit-content;
     height: fit-content;
-    background: rgba(35, 107, 42, 0.759);
+    background: var(--complement-color);
     transition: all ease-in-out 250ms;
 
 }
 input[type=button]:hover{
-    background: rgba(21, 78, 26, 0.759);
-    color: rgba(192, 210, 194, 0.759);
+    background: var(--complement-hover-color);
+    color: var(--complement-text-color);
     transform: scale(1.2);
 }
 
 @media only screen and (orientation:portrait) { 
     /* Dynamic Button */
     input[type=button]{
-        font-size: 3vw;
-        color: white;
-        border-radius: 1vw;
-        border-color: white;
-        padding: 0.6vw;
-        width: fit-content;
-        height: fit-content;
-        background: rgba(35, 107, 42, 0.759);
-        transition: all ease-in-out 250ms;
-    
+        font-size: 3vw;    
     }
 }

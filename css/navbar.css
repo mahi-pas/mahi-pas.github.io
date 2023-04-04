@@ -1,4 +1,4 @@
-
+@import "css/theme.css";
 
 /* Menu button */
 .btn{
@@ -7,7 +7,7 @@
     left: 1vw;
     height: 3vw;
     width: 3vw;
-    background: rgba(36, 35, 107, 0.759);
+    background: var(--panel-color);
     border-radius: 0.3vw;
     text-align: center;
     cursor: pointer;
@@ -16,8 +16,8 @@
 }
 
 .bth:hover{
-    background: rgba(21, 78, 26, 0.759);
-    color: rgba(192, 210, 194, 0.759);
+    background: var(--complement-hover-color);
+    color: var(--complement-text-color);
 }
 
 .btn.click{
@@ -25,7 +25,7 @@
 }
 
 .btn span{
-    color: white;
+    color: var(--text-color);
     font-size: 2vw;
     line-height: 3vw;
 }
@@ -41,7 +41,7 @@
     width: 20%;
     height: 100%;
     left: -20%;
-    background:rgba(36, 35, 107, 0.759);
+    background:var(--panel-color);
     transition: left 0.4s ease;
 }
 
@@ -50,13 +50,13 @@
 }
 
 .sidebar .text{
-    color: white;
+    color: var(--text-color);
     font-size: 5vh;
     font-weight: 700;
     line-height: -1vh;
     text-align: center;
     letter-spacing: 1px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* Navigation Fields */
@@ -68,7 +68,7 @@ nav ul{
 
 nav ul li{
     line-height: 15vh;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid var(--border-color);
     transition: all ease-in-out 250ms;
 }
 
@@ -78,7 +78,7 @@ nav ul li:hover{
 
 /* Selection */
 nav ul li a{
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 2vw;
     padding-left: 1vw;
@@ -89,9 +89,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(219, 255, 223);
-    background: rgba(35, 107, 42, 0.759);
-    border-left-color: rgb(11, 59, 15);
+    color: var(--complement-text-color);
+    background: var(--complement-color);
+    border-left-color: var(--complement-dark-color);
 }
 
 nav ul ul{
@@ -101,7 +101,7 @@ nav ul ul{
 
 nav ul ul li{
     line-height: 10vh;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid var(--border-color);
     transition: all ease-in-out 250ms;
 }
 
@@ -181,7 +181,6 @@ nav ul .portfolio-show.show{
         left: 1vw;
         height: 7vw;
         width: 7vw;
-        background: rgba(36, 35, 107, 0.759);
         padding: 1.7vw;
         border-radius: 0.3vw;
         text-align: center;
