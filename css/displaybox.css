@@ -63,6 +63,10 @@
 
 @media only screen and (orientation:portrait) {
     /* Content Box */
+    .box{
+        width: 90vw;
+    }
+
     .box h1{
         font-size: 6vw;
     }
