@@ -4,7 +4,7 @@
 input[type=button]{
     font-size: 1.4vw;
     color: var(--button-text-color);
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     border-color: var(--text-color);
     padding: 0.6vw;
     width: fit-content;
