@@ -1,13 +1,14 @@
 
 
 :root {
-    --main-bg: #309083;
-    --panel-color: #85dcb8;
-    --text-color: #155f55;
-    --text-hover-color: #0b453d;
-    --complement-color: #E8A87C;
-    --complement-hover-color: #e27d60;
-    --complement-text-color: #ffeee2;
-    --complement-dark-color: #a85037;
-    --border-color: rgba(255, 255, 255, 0.3);
+    --main-bg: #5151f2;
+    --panel-color: #79aef6;
+    --text-color: #32005c;
+    --text-hover-color: #692c82;
+    --complement-color: #5151f2;
+    --complement-hover-color: #2b2be6;
+    --complement-text-color: #9ae1fb;
+    --complement-dark-color: #2b2be6;
+    --border-color: rgb(50 0 92);
+    --button-text-color: #c6f0ff;
 }

@@ -55,12 +55,6 @@
     font-size: 2vw;
 }
 
-.box-img{
-    border-radius: 50%;
-    width:10vw;
-    height:10vw;
-}
-
 @media only screen and (orientation:portrait) {
     /* Content Box */
     .box{
