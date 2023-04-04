@@ -264,6 +264,8 @@ main::-webkit-scrollbar-thumb{
         /* Make go out further */
         width: 80%;
         left: -80%;
+        /* Change offset */
+        margin-top: calc(-1vh - 7vw);
     }
     
     nav ul li a{
@@ -297,7 +299,7 @@ main::-webkit-scrollbar-thumb{
 
 
     .btn{
-        position: absolute;
+        position: sticky;
         top: 1vh;
         left: 1vw;
         height: 7vw;
