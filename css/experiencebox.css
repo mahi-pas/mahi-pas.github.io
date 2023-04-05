@@ -1,0 +1,59 @@
+@import "css/theme.css";
+
+.experience-box {
+    width: 60vw;
+    height: fit-content;
+    background: var(--complement-color);
+    padding: 1vw;
+    text-align: left;
+    margin: auto;
+    margin-top: 0vh;
+    color: var(--complement-text-color);
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5vw;
+    display: flex;
+    transition: all ease-in-out 250ms;
+}
+
+.experience-box:hover {
+    width: 62vw;
+    background: var(--complement-hover-color);
+    color: var(--complement-text-color);
+}
+
+.experience-box h1{
+    font-size: 2vw;
+    
+}
+
+.experience-box h2{
+    font-size: 1vw;
+}
+
+.experience-box .job-name {
+    flex: 1;
+}
+
+.experience-box .job-date {
+    position: relative;
+    right: 0px;
+}
+
+@media only screen and (orientation:portrait) {
+    .experience-box{
+        width: 80vw;
+    }
+
+    .experience-box h1{
+        font-size: 3vw;
+    }
+    
+    .experience-box h2{
+        font-size: 2vw;
+    }
+
+    .experience-box:hover {
+        width: 85vw;
+    }
+
+}

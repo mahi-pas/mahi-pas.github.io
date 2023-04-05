@@ -59,6 +59,11 @@
     transition: all ease-in-out 250ms;
 }
 
+.box table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (orientation:portrait) {
     /* Content Box */
     .box{
