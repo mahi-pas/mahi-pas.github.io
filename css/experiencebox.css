@@ -1,4 +1,4 @@
-@import "css/theme.css";
+@import "theme.css";
 
 .experience-box {
     width: 60vw;
@@ -36,7 +36,29 @@
 
 .experience-box .job-date {
     position: relative;
+    align-content: right;
+    text-align: right;
     right: 0px;
+}
+
+.experience-box .job-date span {
+    font-size: 2vw;
+}
+
+.experience-info {
+    width: 58vw;
+    color: var(--text-color);
+    background: var(--panel-color);
+    text-align: left;
+    height: fit-content;
+    padding: 0.5vw;
+    text-align: left;
+    margin: auto;
+    margin-top: 0vh;
+}
+
+.experience-info p {
+    font-size: 1.5vw;
 }
 
 @media only screen and (orientation:portrait) {
@@ -54,6 +76,18 @@
 
     .experience-box:hover {
         width: 85vw;
+    }
+
+    .experience-box .job-date span {
+        font-size: 3vw;
+    }
+
+    .experience-info {
+        width: 75vw;
+    }
+
+    .experience-info p {
+        font-size: 3vw;
     }
 
 }

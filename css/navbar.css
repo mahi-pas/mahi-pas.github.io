@@ -1,4 +1,4 @@
-@import "css/theme.css";
+@import "theme.css";
 
 /* Menu button */
 .btn{
@@ -64,6 +64,7 @@ nav ul{
     height: 100%;
     width: 100%;
     list-style: none;
+    transition: all ease-in-out 250ms;
 }
 
 nav ul li{
