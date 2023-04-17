@@ -6,6 +6,7 @@ input[type=button]{
     color: var(--button-text-color);
     border-radius: 1vw;
     border-color: var(--text-color);
+    border-style: solid;
     padding: 0.6vw;
     width: fit-content;
     height: fit-content;
