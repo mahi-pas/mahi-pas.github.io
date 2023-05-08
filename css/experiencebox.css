@@ -11,7 +11,10 @@
     color: var(--complement-text-color);
     font-family: Verdana, sans-serif;
     border-radius: 0.5vw;
+    display: flex;
     transition: all ease-in-out 250ms;
+    border-style: solid;
+    border-color: var(--text-color);
 }
 
 .experience-box:hover {
@@ -54,10 +57,26 @@
     text-align: left;
     margin: auto;
     margin-top: 0vh;
+    transition: all ease-in-out;
+    display: none;
 }
 
-.experience-info p {
+.experience-info ul {
+    list-style-type: none;
     font-size: 1.5vw;
+    display: list-item;
+}
+
+.experience-info ul li {
+    display: inline-block;
+    border-left: 10px solid var(--complement-color);
+    padding-left: 10px;
+    margin: 1vh;
+}
+
+.experience-info ul li:hover {
+    border-left: 10px solid var(--complement-hover-color);
+    background: var(--panel-hover-color);
 }
 
 @media only screen and (orientation:portrait) {
@@ -85,7 +104,7 @@
         width: 75vw;
     }
 
-    .experience-info p {
+    .experience-info ul {
         font-size: 3vw;
     }
 

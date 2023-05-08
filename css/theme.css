@@ -4,6 +4,7 @@
     --main-bg: #5151f2;
     --bg-img: url(Images/background.png);
     --panel-color: #79aef6;
+    --panel-hover-color: #4f94f5;
     --text-color: #32005c;
     --text-hover-color: #692c82;
     --complement-color: #5151f2;
@@ -12,4 +13,6 @@
     --complement-dark-color: #2b2be6;
     --border-color: rgb(50 0 92);
     --button-text-color: #c6f0ff;
+
+    --big-border: 0.3vw;
 }

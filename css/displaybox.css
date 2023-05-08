@@ -20,7 +20,7 @@
     margin-top: 0vh;
     color: var(--text-color);
     font-family: Verdana, sans-serif;
-    border-radius: 0.5vw;
+    border-radius: var(--big-border);
     border-style: solid;
     border-color: var(--text-color);
 }

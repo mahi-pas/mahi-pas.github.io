@@ -12,14 +12,7 @@ $(".portfolio-btn").click(function (e) {
 
 
 //Experience Box
-$(".experience-box").click(function () {
-    console.log("hi");
-    $(".experience-info").toggle(1000);
-});
-
-function ExperienceBox(id) {
-    var info = document.getElementById(id);
-    //info.toggle(1000);
-    info.hide();
+function toggleExperience(experienceID) {
+    $(experienceID).slideToggle(400);
 }
 
