@@ -75,10 +75,12 @@
     transition: all 0.3s ease-in-out;
 }
 
+/*
 .experience-info ul li:hover {
     border-left: 10px solid var(--complement-hover-color);
     background: var(--panel-hover-color);
 }
+*/
 
 @media only screen and (orientation:portrait) {
     .experience-box{
