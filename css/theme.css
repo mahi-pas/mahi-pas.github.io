@@ -2,6 +2,7 @@
 
 :root {
     --main-bg: #5151f2;
+    --bg-img: url(Images/background.png);
     --panel-color: #79aef6;
     --text-color: #32005c;
     --text-hover-color: #692c82;

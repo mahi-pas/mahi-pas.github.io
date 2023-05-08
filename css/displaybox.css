@@ -6,6 +6,8 @@
     width:13vw;
     height:13vw;
     transition: all ease-in-out 250ms;
+    border-style: solid;
+    border-color: var(--text-color);
 }
 
 .box{
@@ -19,6 +21,8 @@
     color: var(--text-color);
     font-family: Verdana, sans-serif;
     border-radius: 0.5vw;
+    border-style: solid;
+    border-color: var(--text-color);
 }
 
 .box ul{
