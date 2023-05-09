@@ -4,7 +4,7 @@
     background-color: var(--mesh-color-bg);
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     margin: auto;
     left: 0;
     right: 0;
@@ -65,10 +65,10 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 20vw;
-    width: 20vw;
+    height: 10vw;
+    width: 10vw;
     border-radius: 50%;
-    animation: none;
+    animation: expandContract 4s ease-in-out infinite;
     transform-origin: center center;
     transform: translate(0,0);
     align-content: center;
@@ -79,6 +79,6 @@
     content: "";
     height: 100%;
     width: 100%;
-    backdrop-filter: blur(200px);
-    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
 }

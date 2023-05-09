@@ -50,6 +50,8 @@
 
 .mesh-overlay #button-row {
     margin-top: 15vh; 
+    height: fit-content;
+    padding-bottom: 10vh;
 }
 
 .mesh-overlay #button-row button {
