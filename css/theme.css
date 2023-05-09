@@ -4,15 +4,20 @@ Stores common colors and styles
 
 :root{
     /* Animated Mesh Gradient Colors */
-    --mesh-color-bg: #6443ea;
-    --mesh-color-mouse: #b2a0fb7c;
-    --mesh-color-1: #ff057c;
-    --mesh-color-2: #800f86;
-    --mesh-color-3: #1619b9;
-    --mesh-color-4: #1ba8e9;
+    --mesh-color-bg: #fff9d2;
+    --mesh-color-mouse: #ffdbae7c;
+    --mesh-color-1: #ffa760;
+    --mesh-color-2: #F7D060;
+    --mesh-color-3: #ff9560;
+    --mesh-color-4: #F3E99F;
 
     /* Button Colors */
     --button-bg: #ff017c00;
-    --button-bg-hover: #ff017c21;
-    --button-glow-hover: #f04e6f;
+    --button-bg-hover: #93ffa321;
+    --button-glow-hover: #3fe19d;
+    --button-color: #33a378;
+
+    /* Text Colors */
+    --title-color: #33a378;
+    --subtite-color: #ffffe1;
 }

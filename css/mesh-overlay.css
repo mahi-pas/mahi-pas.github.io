@@ -21,7 +21,7 @@
     line-height: 12vw;
     margin-top: 20vh;
     margin-bottom: 0;
-    color: white;
+    color: var(--title-color);
     font-family: "Bebas Neue";
     font-weight: bolder;
     height: fit-content;
@@ -35,7 +35,7 @@
     text-align: center;
     font-size: 4vw;
     margin-top: 0;
-    color: white;
+    color: var(--subtite-color);
     font-family: "Montserrat";
     font-weight: lighter;
     margin-bottom: 0;
