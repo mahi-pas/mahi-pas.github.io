@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,20 +15,11 @@
 
     <link rel="icon" type="image/png" href="Images/pfp.png">
     <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
 
-    
-    <div class="mesh-overlay">
-        <h1 id="name">Mahi Pasarkar</h1>
-        <h2 id="title">✧ Software Engineer ✧</h2>
-        <div class="button-row" id="button-row">
-            <button class="button" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>Resume</button>
-            <button class="button" onclick='window.open("https://github.com/mahi-pas", target="_blank");'>Github</button>
-            <button class="button" onclick='window.open("https://www.linkedin.com/in/mahi-pasarkar/", target="_blank");'>LinkedIn</button>
-            <button class="button" onclick='window.open("https://rainyelephant.itch.io/", target="_blank");'>Itch.io</button>
-        </div>
-    </div>
     <div class="animated-mesh">
         <div></div>
         <div></div>
@@ -36,7 +28,46 @@
         <div class="mesh-mouse-hover" id="mesh-mouse-hover"></div>
     </div>
 
+    <div class="mesh-overlay">
+        <h1 id="name">Mahi Pasarkar</h1>
+        <h2 id="title">✧ Software Engineer ✧</h2>
+        <div class="button-row" id="button-row">
+            <button class="button" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>Resume</button>
+            <button class="button"
+                onclick='window.open("https://github.com/mahi-pas", target="_blank");'>Github</button>
+            <button class="button"
+                onclick='window.open("https://www.linkedin.com/in/mahi-pasarkar/", target="_blank");'>LinkedIn</button>
+            <button class="button"
+                onclick='window.open("https://rainyelephant.itch.io/", target="_blank");'>Itch.io</button>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="display-area">
+        <div class="display-box hidden" id="first">
+            <h1 id="title">Experience</h1>
+            <img id="display-image" src="Images/pfp.png">
+            <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veniam doloremque
+                accusantium architecto saepe? At, ducimus voluptatem ipsa, voluptates eum delectus tempora tenetur ea
+                nesciunt dicta nemo ad cupiditate distinctio.</p>
+        </div>
+        <div class="display-box hidden" id="second">
+            <h1 id="title">Projects</h1>
+            <img id="display-image" src="Images/pfp.png">
+            <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veniam doloremque
+                accusantium architecto saepe? At,
+                ducimus voluptatem ipsa, voluptates eum delectus tempora tenetur ea nesciunt dicta nemo ad cupiditate
+                distinctio.</p>
+        </div>
+        <div class="display-box hidden" id="third">
+            <h1 id="title">Games</h1>
+            <img id="display-image" src="Images/pfp.png">
+            <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veniam doloremque
+                accusantium architecto saepe? At,
+                ducimus voluptatem ipsa, voluptates eum delectus tempora tenetur ea nesciunt dicta nemo ad cupiditate
+                distinctio.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>

@@ -20,4 +20,9 @@ Stores common colors and styles
     /* Text Colors */
     --title-color: #33a378;
     --subtite-color: #ffffe1;
+
+    /* Display Box */
+    --display-bg-color: none;
+    --display-box-color: var(--title-color);
+    --display-title-color: var(--title-color);
 }

@@ -1,0 +1,61 @@
+@import url("theme.css");
+@import url("animations.css");
+
+.display-area {
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    background-color: var(--display-bg-color);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1vw 0;
+}
+
+.display-area .display-box {
+    flex: 1;
+    border-radius: 1vw;
+    margin: 3vw;
+    padding: 1vw;
+    height: fit-content;
+    border-color: var(--display-box-color);
+    border-width: 0.2rem;
+    border-style: solid;
+    transition: all 0.3s ease-in-out;
+}
+
+.display-area .display-box:hover {
+    transform: scale(1.05);
+}
+
+.display-area .display-box #title {
+    text-align: center;
+    color: var(--display-title-color);
+    font-family: "Bebas Neue";
+    font-size: 5vw;
+    letter-spacing: 0.2vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.display-area .display-box #display-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+}
+
+.display-area .display-box #description {
+    color: var(--display-title-color);
+    font-family: "Oxygen";
+    padding: 1vw;
+    font-size: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}

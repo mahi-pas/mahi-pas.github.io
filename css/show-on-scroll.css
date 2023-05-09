@@ -1,0 +1,33 @@
+
+
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-20%);
+    transition: all 2s;
+}
+
+#first {
+    transition-delay: 200ms;
+}
+
+#second {
+    transition-delay: 400ms;
+}
+
+#third {
+    transition-delay: 600ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+}
+
+/* accessibility */
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}

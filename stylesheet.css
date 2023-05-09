@@ -4,4 +4,12 @@
 @import url("css/button.css");
 @import url("css/button-row.css");
 @import url("css/section.css");
+@import url("css/display-area.css");
+@import url("css/show-on-scroll.css");
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
 

@@ -8,3 +8,19 @@ const onMouseMove = (e) => {
     mesh_mouse_hover.style.top = `calc(${e.pageY}px - (${style.height}/2))`;
 };
 document.addEventListener("mousemove", onMouseMove);
+
+//Show on scroll
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
