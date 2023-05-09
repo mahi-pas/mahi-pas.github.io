@@ -5,15 +5,15 @@
     color: white;
     border-radius: 5px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 0.2rem;
     padding: 3vh;
     width: fit-content;
     height: fit-content;
     background-color: var(--button-bg);
     border-color: white;
     transition: all ease-in-out 250ms;
-    margin-top: 0;
     margin-left: 1rem;
+    margin-top: 1rem;
     font-family: "Oxygen";
 }
 
