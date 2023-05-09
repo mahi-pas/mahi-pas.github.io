@@ -28,7 +28,8 @@
     padding: 0;
     user-select: none;
     
-    animation: fadeInDown 2s ease;
+    animation: fadeInDown 2s ease both;
+    opacity: 0;
 }
 
 .mesh-overlay #title {
