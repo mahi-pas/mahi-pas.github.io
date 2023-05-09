@@ -7,17 +7,36 @@
     <title>Mahi Pasarkar | Homepage</title>
     <script src="https://kit.fontawesome.com/4d2032f030.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
     <link rel="icon" type="image/png" href="Images/pfp.png">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 
+    
+    <div class="mesh-overlay">
+        <h1 id="name">Mahi Pasarkar</h1>
+        <h2 id="title">Software Engineer</h2>
+        <div class="button-row" id="button-row">
+            <button class="button" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>Resume</button>
+            <button class="button" onclick='window.open("https://github.com/mahi-pas", target="_blank");'>Github</button>
+            <button class="button" onclick='window.open("https://www.linkedin.com/in/mahi-pasarkar/", target="_blank");'>LinkedIn</button>
+            <button class="button" onclick='window.open("https://rainyelephant.itch.io/", target="_blank");'>Itch.io</button>
+        </div>
+    </div>
     <div class="animated-mesh">
         <div></div>
         <div></div>
         <div></div>
         <div></div>
+        <div class="mesh-mouse-hover" id="mesh-mouse-hover"></div>
+        
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
