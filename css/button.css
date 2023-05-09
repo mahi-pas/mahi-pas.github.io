@@ -1,28 +1,23 @@
-@import "css/theme.css";
+@import "theme.css";
 
-/* Dynamic Buttons */
-input[type=button]{
-    font-size: 1.4vw;
-    color: var(--button-text-color);
-    border-radius: 1vw;
-    border-color: var(--text-color);
+.button {
+    font-size: 3vw;
+    color: white;
+    border-radius: 5px;
     border-style: solid;
-    padding: 0.6vw;
+    border-width: 5px;
+    padding: 3vh;
     width: fit-content;
     height: fit-content;
-    background: var(--complement-color);
+    background-color: var(--button-bg);
+    border-color: white;
     transition: all ease-in-out 250ms;
-
-}
-input[type=button]:hover{
-    background: var(--complement-hover-color);
-    color: var(--complement-text-color);
-    transform: scale(1.2);
+    margin-top: 0;
+    margin-left: 1rem;
+    font-family: "Oxygen";
 }
 
-@media only screen and (orientation:portrait) { 
-    /* Dynamic Button */
-    input[type=button]{
-        font-size: 3vw;    
-    }
+.button:hover {
+    background-color: var(--button-bg-hover);
+    filter: drop-shadow(0 0 0.75rem var(--button-glow-hover));
 }

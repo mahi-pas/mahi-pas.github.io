@@ -1,0 +1,83 @@
+@import "theme.css";
+
+.animated-mesh {
+    background-color: var(--mesh-color-bg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.animated-mesh div {
+    position: absolute;
+    border-radius: 50%;
+    animation: mesh-blob 4s infinite;
+}
+
+@keyframes mesh-blob {
+    70% {
+        transform: scale(1.4) translate(1rem);
+    }
+}
+
+.animated-mesh div:nth-child(1){
+    height: 90%;
+    width: 80%;
+    background-color: var(--mesh-color-1);
+    left: -29%;
+    top: -10%;
+}
+
+.animated-mesh div:nth-child(2) {
+    height: 80%;
+    width: 70%;
+    background-color: var(--mesh-color-2);
+    right: -12%;
+    top: -12%;
+    animation-delay: 8s;
+}
+
+.animated-mesh div:nth-child(3) {
+    height: 65%;
+    width: 80%;
+    background-color: var(--mesh-color-3);
+    right: -20%;
+    bottom: -15%;
+    animation-delay: 0.3s;
+}
+
+.animated-mesh div:nth-child(4) {
+    height: 50%;
+    width: 75%;
+    background-color: var(--mesh-color-4);
+    left: -18%;
+    bottom: -10%;
+    animation-delay: 1.2s;
+}
+
+.animated-mesh .mesh-mouse-hover {
+    background-color: var(--mesh-color-mouse);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    animation: none;
+    transform-origin: center center;
+    transform: translate(0,0);
+    align-content: center;
+}
+
+.animated-mesh::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(200px);
+}

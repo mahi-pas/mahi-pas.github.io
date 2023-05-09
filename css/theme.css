@@ -1,15 +1,18 @@
+/* theme.css 
+Stores common colors and styles
+*/
 
+:root{
+    /* Animated Mesh Gradient Colors */
+    --mesh-color-bg: #6443ea;
+    --mesh-color-mouse: #b2a0fb7c;
+    --mesh-color-1: #ff057c;
+    --mesh-color-2: #800f86;
+    --mesh-color-3: #1619b9;
+    --mesh-color-4: #1ba8e9;
 
-:root {
-    --main-bg: #5151f2;
-    --bg-img: url(Images/background.png);
-    --panel-color: #79aef6;
-    --text-color: #32005c;
-    --text-hover-color: #692c82;
-    --complement-color: #5151f2;
-    --complement-hover-color: #2b2be6;
-    --complement-text-color: #9ae1fb;
-    --complement-dark-color: #2b2be6;
-    --border-color: rgb(50 0 92);
-    --button-text-color: #c6f0ff;
+    /* Button Colors */
+    --button-bg: #ff017c00;
+    --button-bg-hover: #ff017c21;
+    --button-glow-hover: #f04e6f;
 }
