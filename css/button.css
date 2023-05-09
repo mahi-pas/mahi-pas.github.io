@@ -21,3 +21,10 @@
     background-color: var(--button-bg-hover);
     filter: drop-shadow(0 0 0.75rem var(--button-glow-hover));
 }
+
+@media only screen and (orientation:portrait) {
+    .button {
+        font-size: 5vw;
+        width: 40vw;
+    }
+}
