@@ -1,4 +1,4 @@
-@import "theme.css";
+@import url("theme.css");
 
 .button-row {
     text-align: center;
