@@ -84,4 +84,8 @@
     .mesh-overlay #title {
         font-size: 7vw;
     }
+
+    .mesh-overlay #button-row {
+        margin-top: 1vh;
+    }
 }
