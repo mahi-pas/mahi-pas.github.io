@@ -80,6 +80,7 @@
     .mesh-overlay #name {
         font-size: 20vw;
         line-height: 20vw;
+        margin-top: 10vh;
     }
 
     .mesh-overlay #title {
@@ -87,6 +88,6 @@
     }
 
     .mesh-overlay #button-row {
-        margin-top: 1vh;
+        margin-top: 10vh;
     }
 }
