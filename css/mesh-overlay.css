@@ -1,5 +1,5 @@
-@import "theme.css";
-@import "animations.css";
+@import url("theme.css");
+@import url("animations.css");
 
 .mesh-overlay {
     height: 100%;
