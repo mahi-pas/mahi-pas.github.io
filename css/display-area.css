@@ -49,6 +49,8 @@
     width: 20vw;
     height: 20vw;
     border-radius: 5px;
+    border-color: var(--display-title-color);
+    border-style: solid;
 }
 
 .display-area .display-box #description {
