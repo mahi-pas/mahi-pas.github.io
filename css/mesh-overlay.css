@@ -2,10 +2,10 @@
 @import url("animations.css");
 
 .mesh-overlay {
-    height: 100%;
+    height: fit-content;
     width: 100%;
-    position: absolute;
-    margin: auto;
+    position: relative;
+    margin: 0;
     left: 0;
     right: 0;
     top: 0;
@@ -26,7 +26,7 @@
     font-weight: bolder;
     height: fit-content;
     padding: 0;
-    user-select: none;
+        
     
     animation: fadeInDown 2s ease both;
     opacity: 0;
@@ -42,7 +42,7 @@
     margin-bottom: 0;
     user-select: none;
 
-    animation: fadeInUp 2s ease;
+    animation: fadeInUpGrow 2s ease;
     opacity: 0;
     animation-delay: 2s;
     animation-fill-mode: both;

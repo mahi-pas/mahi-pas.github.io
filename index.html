@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,20 +15,11 @@
 
     <link rel="icon" type="image/png" href="Images/pfp.png">
     <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
 
-    
-    <div class="mesh-overlay">
-        <h1 id="name">Mahi Pasarkar</h1>
-        <h2 id="title">✧ Software Engineer ✧</h2>
-        <div class="button-row" id="button-row">
-            <button class="button" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>Resume</button>
-            <button class="button" onclick='window.open("https://github.com/mahi-pas", target="_blank");'>Github</button>
-            <button class="button" onclick='window.open("https://www.linkedin.com/in/mahi-pasarkar/", target="_blank");'>LinkedIn</button>
-            <button class="button" onclick='window.open("https://rainyelephant.itch.io/", target="_blank");'>Itch.io</button>
-        </div>
-    </div>
     <div class="animated-mesh">
         <div></div>
         <div></div>
@@ -35,8 +27,55 @@
         <div></div>
         <div class="mesh-mouse-hover" id="mesh-mouse-hover"></div>
     </div>
+    <!--
+    <div class="navigation-arrows">
+        <span class="fas fa-caret-up first"></span>
+        <span class="fas fa-caret-down first"></span>
+    </div>
+    -->
+    <div class="mesh-overlay">
+        <h1 id="name">Mahi Pasarkar</h1>
+        <h2 id="title">✧ Software Engineer ✧</h2>
+        <div class="button-row" id="button-row">
+            <button class="button" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>Resume</button>
+            <button class="button"
+                onclick='window.open("https://github.com/mahi-pas", target="_blank");'>Github</button>
+            <button class="button"
+                onclick='window.open("https://www.linkedin.com/in/mahi-pasarkar/", target="_blank");'>LinkedIn</button>
+            <button class="button"
+                onclick='window.open("https://rainyelephant.itch.io/", target="_blank");'>Itch.io</button>
+        </div>
+    </div>
 
+    <div class="display-area">
+        <div class="display-box hidden" id="first" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>
+            <h1 id="title">Experience</h1>
+            <img id="display-image" src="Images/experience.png">
+            <p id="description"></p>
+        </div>
+        <div class="display-box hidden" id="second" onclick='window.open("https://github.com/mahi-pas", target="_blank");'>
+            <h1 id="title">Projects</h1>
+            <img id="display-image" src="Images/projects.png">
+            <p id="description"></p>
+        </div>
+        <div class="display-box hidden" id="third" onclick='window.open("https://rainyelephant.itch.io/", target="_blank");'>
+            <h1 id="title">Games</h1>
+            <img id="display-image" src="Images/games.png">
+            <p id="description"></p>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="about-me hidden" id="move-up">
+        <h1>Hi, I'm Mahi!</h1>
+        <p>From a young age I always wondered how things worked. I would take apart toys to see the gears inside.
+        This curiosity led me to programming. I made my first text adventure in batch in 5th grade,
+        and by high school I was president of Senior Division Computer League!
+        I'm a rising senior at Rensselaer Polytechnic Institute,
+        and I'm dual majoring in Computer Science
+        (with a concentration in AI and Data) and
+        Games and Simulation Arts and Sciences</p>
+    </div>
+
 </body>
+
 </html>
