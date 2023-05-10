@@ -28,7 +28,7 @@
     padding: 0;
         
     
-    animation: fadeInDown 0.5s ease both;
+    animation: fadeInDown 1s ease both;
     opacity: 0;
 }
 

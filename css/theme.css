@@ -33,4 +33,10 @@ Stores common colors and styles
 
     /* About Me */
     --about-me-bg-color: #33a37839;
+
+    /* Slideshow */
+    --dot-color: #4f0c79;
+    --dot-hover: #ffffff;
+    --slideshow-element-background: #6e217b9f;
+    --image-hover: #c23ea136;
 }

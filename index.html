@@ -33,6 +33,7 @@
         <span class="fas fa-caret-down first"></span>
     </div>
     -->
+    <a class="section-title"></a>
     <div class="mesh-overlay">
         <h1 id="name">Mahi Pasarkar</h1>
         <h2 id="title">✧ Software Engineer ✧</h2>
@@ -47,13 +48,14 @@
         </div>
     </div>
 
+    <a class="section-display"></a>
     <div class="display-area">
         <div class="display-box hidden" id="first" onclick='smoothScroll(".section-experience")'>
             <h1 id="title">Experience</h1>
             <img id="display-image" src="Images/experience.png">
             <p id="description"></p>
         </div>
-        <div class="display-box hidden" id="second" onclick='window.open("https://github.com/mahi-pas", target="_blank");'>
+        <div class="display-box hidden" id="second" onclick='smoothScroll(".section-projects")'>
             <h1 id="title">Projects</h1>
             <img id="display-image" src="Images/projects.png">
             <p id="description"></p>
@@ -65,6 +67,7 @@
         </div>
     </div>
 
+    <a class="section-about-me"></a>
     <div class="about-me hidden" id="move-up">
         <h1>Hi, I'm Mahi!</h1>
         <!--<img src="Images/pfp.png">-->
@@ -109,7 +112,7 @@
                 <h2>Regulatory Intern</h2>
             </div>
             <div class="job-date">
-                <h2>January 2023 - Present</h2>
+                <h2>June 2022 - Present</h2>
                 <span class="fas fa-caret-down first" align="right"></span>
             </div>
         </div>
@@ -130,7 +133,7 @@
                 <h2>Server Developer</h2>
             </div>
             <div class="job-date">
-                <h2>January 2023 - Present</h2>
+                <h2>January 2022 - May 2022</h2>
                 <span class="fas fa-caret-down first" align="right"></span>
             </div>
         </div>
@@ -142,6 +145,99 @@
                 <li>Designed solutions for server-end goals, such as receiving and storing analytics data from various front ends
                 and calculating and displaying data quality for bus locations and documented thoroughly on the GitHub wiki.</li>
             </ul>
+        </div>
+    </div>
+
+    <a class="section-education"></a>
+    <div class="about-me hidden" id="move-up">
+        <h1 id="smaller">Education</h1>
+        <div class="experience-box hidden" id="first" onclick='toggleExperience("#rpi-info");'>
+    
+            <div class="job-name">
+                <h1>Rensselaer Polytechnic Institute</h1>
+                <h2>BS Computer Science and Games and Simulations</h2>
+            </div>
+            <div class="job-date">
+                <h2>August 2020 - May 2024</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="rpi-info">
+            <br>
+            <ul>
+                <li>Dual Major in Computer Science (AI and Data Concentration) and Games and Simulations Arts and Sciences</li>
+                <li>GPA: 3.63</li>
+                <li>Achieved Dean's Honors List 2020, 2021, 2022, and 2023</li>
+                <li>Member of Computer Science Honors Society Upsilon Pi Epsilon</li>
+                <li>Member of the National Society of Leadership and Success</li>
+                <li>Member of Service Fraternity Alpha Phi Omega</li>
+                <li>Member of Rensselaer Center for Open Source</li>
+            </ul>
+        </div>
+        <div class="experience-box hidden" id="second" onclick='toggleExperience("#flhs-info");'>
+    
+            <div class="job-name">
+                <h1>Fair Lawn High School</h1>
+                <h2>High School Diploma</h2>
+            </div>
+            <div class="job-date">
+                <h2>September 2015 - June 2020</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="flhs-info">
+            <br>
+            <ul>
+                <li>President of ACSL Senior Division Computer League</li>
+                <li>Vice-President of Student Tech Squad</li>
+                <li>Member of National Honor Society</li>
+            </ul>
+        </div>
+    </div>
+
+    <a class="section-projects"></a>
+    <div class="about-me hidden" id="move-up">
+        <h1 id="smaller">Projects</h1>
+        <p style="text-align:center">Click to see each project!</p>
+        <div class="slideshow-container hidden">
+        
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img class="slide-img" src="Images/thumb-qlearning.png" style="width:100%" onclick='window.open("https://github.com/mahi-pas/Q-Learning-vs-PPO-Machine-Learning", target="_blank");'>
+                <div class="text">Q Learning Implementation</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img class="slide-img" src="Images/thumb-ppo.png" style="width:100%" onclick='window.open("https://github.com/mahi-pas/Predator-and-Prey-Simulation-Using-Proximal-Policy-Optimization", target="_blank");'>
+                <div class="text">Predator and Prey using PPO</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img class="slide-img" src="Images/thumb-pathfinding.png" style="width:100%" onclick='window.open("https://github.com/mahi-pas/AI-Pathfinding", target="_blank");'>
+                <div class="text">AI Pathfinding</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img class="slide-img" src="Images/thumb-movement.png" style="width:100%" onclick='window.open("https://github.com/mahi-pas/AI-Movement-Agents", target="_blank");'>
+                <div class="text">AI Movement Agents</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
     </div>
 
