@@ -22,7 +22,7 @@
 
 @keyframes mesh-blob {
     70% {
-        transform: scale(1.4) translate(2rem);
+        transform: scale(1.5) translate(4rem);
     }
 }
 

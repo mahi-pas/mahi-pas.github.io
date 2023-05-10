@@ -9,7 +9,7 @@ Stores common colors and styles
     --mesh-color-1: #5a1cac;
     --mesh-color-2: #a92bb7;
     --mesh-color-3: #7330c5;
-    --mesh-color-4: #7e40b9;
+    --mesh-color-4: #9b40b9;
 
     /* Button Colors */
     --button-bg: #ff017c00;
@@ -33,4 +33,10 @@ Stores common colors and styles
 
     /* About Me */
     --about-me-bg-color: #33a37839;
+
+    /* Slideshow */
+    --dot-color: #4f0c79;
+    --dot-hover: #ffffff;
+    --slideshow-element-background: #6e217b9f;
+    --image-hover: #c23ea136;
 }

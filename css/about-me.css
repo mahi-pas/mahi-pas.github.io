@@ -6,12 +6,8 @@
     margin: 3vw;
     padding: 1vw;
     height: fit-content;
-    border-color: var(--display-box-color);
-    border-width: 0.2rem;
-    border-style: solid;
     transition: all 1s;
     color: var(--subtitle-color);
-    background-color: var(--about-me-bg-color);
     text-align: center;
     user-select: none;
 }
@@ -39,17 +35,9 @@
     margin-top: 0;
 }
 
-.about-me img {
-    margin: 0;
-    border-radius: 50%;
-    border-color: var(--display-box-color);
-    border-width: 0.1rem;
-    border-style: solid;
-}
-
 @media only screen and (orientation:portrait) {
     .about-me h1 {
-        font-size: 16vw;
+        font-size: 15vw;
     }
 
     .about-me p {
