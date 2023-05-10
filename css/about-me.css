@@ -2,7 +2,7 @@
 
 .about-me {
     position: relative;
-    border-radius: 1vw;
+    border-radius: 0.25vw;
     margin: 3vw;
     padding: 1vw;
     height: fit-content;
@@ -12,6 +12,7 @@
     transition: all 1s;
     color: var(--subtitle-color);
     background-color: var(--about-me-bg-color);
+    text-align: center;
     user-select: none;
 }
 
@@ -22,16 +23,28 @@
     letter-spacing: 0.5vw;
     margin-bottom: 0;
     margin-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .about-me p {
-    padding: 6vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     text-align: left;
     font-family: "Montserrat";
     font-size: 2vw;
     letter-spacing: 0vw;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.about-me img {
+    margin: 0;
+    border-radius: 50%;
+    border-color: var(--display-box-color);
+    border-width: 0.1rem;
+    border-style: solid;
 }
 
 @media only screen and (orientation:portrait) {
