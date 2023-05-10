@@ -3,7 +3,7 @@
 .button {
     font-size: 3vw;
     color: var(--button-color);
-    border-radius: 5px;
+    border-radius: 0.5vw;
     border-style: solid;
     border-width: 0.2rem;
     padding: 3vh;

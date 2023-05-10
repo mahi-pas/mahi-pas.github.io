@@ -18,7 +18,7 @@
 
 .display-area .display-box {
     flex: 1;
-    border-radius: 1vw;
+    border-radius: 0.5vw;
     margin: 3vw;
     padding: 1vw;
     height: fit-content;
@@ -31,6 +31,7 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, var(--display-box-color) 50%);
     background-position: 0 0%;
     */
+    background-color: var(--about-me-bg-color);
     color: var(--display-title-color);
     user-select: none;
 }
@@ -60,7 +61,7 @@
     margin-top: 0;
     width: 20vw;
     height: 20vw;
-    border-radius: 5px;
+    border-radius: 0.5vw;
     border-color: var(--display-title-color);
     border-style: solid;
 }
@@ -78,6 +79,8 @@
         display: block;
     }
     .display-area .display-box {
+        margin: auto;
+        margin-bottom: 4vw;
         width: 80vw;
     }
 
