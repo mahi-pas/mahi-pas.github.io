@@ -1,0 +1,35 @@
+@import url("theme.css");
+
+.about-me {
+    position: relative;
+    border-radius: 1vw;
+    margin: 3vw;
+    padding: 1vw;
+    height: fit-content;
+    border-color: var(--display-box-color);
+    border-width: 0.2rem;
+    border-style: solid;
+    transition: all 1s;
+    color: var(--subtitle-color);
+    background-color: var(--about-me-bg-color);
+    user-select: none;
+}
+
+.about-me h1 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 8vw;
+    letter-spacing: 0.5vw;
+    margin-bottom: 0;
+    margin-top: 2vw;
+}
+
+.about-me p {
+    padding: 6vw;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 2vw;
+    letter-spacing: 0vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}

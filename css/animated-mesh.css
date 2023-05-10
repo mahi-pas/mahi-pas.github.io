@@ -22,7 +22,7 @@
 
 @keyframes mesh-blob {
     70% {
-        transform: scale(1.4) translate(1rem);
+        transform: scale(1.4) translate(2rem);
     }
 }
 
@@ -73,6 +73,7 @@
     transform-origin: center center;
     transform: translate(0,0);
     align-content: center;
+    
 }
 
 .animated-mesh::after {

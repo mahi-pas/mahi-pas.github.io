@@ -5,7 +5,7 @@ Stores common colors and styles
 :root{
     /* Animated Mesh Gradient Colors */
     --mesh-color-bg: #fff9d2;
-    --mesh-color-mouse: #ffdbae7c;
+    --mesh-color-mouse: #ffffffde;
     --mesh-color-1: #ffa760;
     --mesh-color-2: #F7D060;
     --mesh-color-3: #ff9560;
@@ -20,9 +20,17 @@ Stores common colors and styles
     /* Text Colors */
     --title-color: #33a378;
     --subtite-color: #ffffe1;
+    --subtitle-color: #ffffe1;
 
     /* Display Box */
     --display-bg-color: none;
     --display-box-color: var(--title-color);
     --display-title-color: var(--title-color);
+
+    /* Section */
+    --section-bg-color: var(--title-color);
+    --section-text-color: var(--subtitle-color);
+
+    /* About Me */
+    --about-me-bg-color: #33a37839;
 }

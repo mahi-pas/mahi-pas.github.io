@@ -8,15 +8,15 @@
 }
 
 #first {
-    transition-delay: 200ms;
+    transition-delay: 0s;
 }
 
 #second {
-    transition-delay: 400ms;
+    transition-delay: 1s;
 }
 
 #third {
-    transition-delay: 600ms;
+    transition-delay: 2s;
 }
 
 .show {
