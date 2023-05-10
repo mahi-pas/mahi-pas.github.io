@@ -24,3 +24,15 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+//Experience Box
+function toggleExperience(experienceID) {
+    $(experienceID).slideToggle(400);
+}
+
+//Smooth scroll
+function smoothScroll(target) {
+    $('html,body').animate({
+        scrollTop: $(target).offset().top},
+        'slow');
+}

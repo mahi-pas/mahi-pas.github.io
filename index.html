@@ -48,7 +48,7 @@
     </div>
 
     <div class="display-area">
-        <div class="display-box hidden" id="first" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>
+        <div class="display-box hidden" id="first" onclick='smoothScroll(".section-experience")'>
             <h1 id="title">Experience</h1>
             <img id="display-image" src="Images/experience.png">
             <p id="description"></p>
@@ -67,7 +67,7 @@
 
     <div class="about-me hidden" id="move-up">
         <h1>Hi, I'm Mahi!</h1>
-        <img src="Images/pfp.png">
+        <!--<img src="Images/pfp.png">-->
         <p>From a young age I always wondered how things worked. I would take apart toys to see the gears inside.
         This curiosity led me to programming. I made my first text adventure in batch in 5th grade,
         and by high school I was president of Senior Division Computer League!
@@ -75,6 +75,74 @@
         and I'm dual majoring in Computer Science
         (with a concentration in AI and Data) and
         Games and Simulation Arts and Sciences</p>
+    </div>
+
+    <a class="section-experience"></a>
+    <div class="about-me hidden" id="move-up">
+        <h1 id="smaller">Experience</h1>
+        <div class="experience-box hidden" id="first" onclick='toggleExperience("#submitty-info");'>
+        
+            <div class="job-name">
+                <h1>Submitty</h1>
+                <h2>Software Developer</h2>
+            </div>
+            <div class="job-date">
+                <h2>January 2023 - Present</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="submitty-info">
+            <br>
+            <ul>
+                <li>Using PHP, Javascript, Twig, Python, HTML, CSS, and PostgreSQL to develop a website that manages courses
+                    for computer science departments of several schools.</li>
+                <li>Using PHP, Javascript, CSS, and Twig to add a pronouns field to user profile pages.</li>
+                <li>Creating migrations in Python to alter fields in the PostgreSQL database in order to store user pronouns.
+                </li>
+                <li>Using PHP, Javascript, Twig, and CSS to display pronouns to instructors in relevant areas.</li>
+            </ul>
+        </div>
+        <div class="experience-box hidden" id="second" onclick='toggleExperience("#sanofi-info");'>
+        
+            <div class="job-name">
+                <h1>Sanofi</h1>
+                <h2>Regulatory Intern</h2>
+            </div>
+            <div class="job-date">
+                <h2>January 2023 - Present</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="sanofi-info">
+            <br>
+            <ul>
+                <li>Working with the regulatory department on Accumulus Synergy and FHIR standard in order to test the Accumulus platform
+                and help bring healthcare data to a unified cloud.</li>
+                <li>Supporting product life cycle management by creating documents such as GRCSD and Product Overviews based on regulatory
+                information from various documents using Veeva Vault, Word, and Sharepoint.</li>
+                <li>Performing queries and remediating data in Veeva Vault RIM to assist in data integrity.</li>
+            </ul>
+        </div>
+        <div class="experience-box hidden" id="third" onclick='toggleExperience("#shuttle-tracker-info");'>
+        
+            <div class="job-name">
+                <h1>Shuttle Tracker</h1>
+                <h2>Server Developer</h2>
+            </div>
+            <div class="job-date">
+                <h2>January 2023 - Present</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="shuttle-tracker-info">
+            <br>
+            <ul>
+                <li>Worked on a large project that serves the campus community by tracking the location of shuttles.</li>
+                <li>Implemented analytics endpoints in the server using Swift, JSON, and PostgreSQL.</li>
+                <li>Designed solutions for server-end goals, such as receiving and storing analytics data from various front ends
+                and calculating and displaying data quality for bus locations and documented thoroughly on the GitHub wiki.</li>
+            </ul>
+        </div>
     </div>
 
 </body>
