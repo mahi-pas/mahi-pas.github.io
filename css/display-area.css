@@ -13,6 +13,7 @@
     flex-flow: row wrap;
     justify-content: center;
     margin: 1vw 0;
+    flex-wrap: wrap;
 }
 
 .display-area .display-box {
@@ -70,4 +71,22 @@
     font-size: 1vw;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+@media only screen and (orientation:portrait) {
+    .display-area {
+        display: block;
+    }
+    .display-area .display-box {
+        width: 80vw;
+    }
+
+    .display-area .display-box #title {
+        font-size: 18vw;
+    }
+
+    .display-area .display-box #display-image {
+        width: 70vw;
+        height: 70vw;
+    }
 }
