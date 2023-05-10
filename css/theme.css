@@ -6,21 +6,21 @@ Stores common colors and styles
     /* Animated Mesh Gradient Colors */
     --mesh-color-bg: #fff9d2;
     --mesh-color-mouse: #ffffffde;
-    --mesh-color-1: #ffa760;
-    --mesh-color-2: #F7D060;
-    --mesh-color-3: #ff9560;
-    --mesh-color-4: #F3E99F;
+    --mesh-color-1: #6a60ff;
+    --mesh-color-2: #e860f7;
+    --mesh-color-3: #60aaff;
+    --mesh-color-4: #ca9ff3;
 
     /* Button Colors */
     --button-bg: #ff017c00;
     --button-bg-hover: #93ffa321;
-    --button-glow-hover: #3fe19d;
-    --button-color: #33a378;
+    --button-glow-hover: #ffffff;
+    --button-color: #ffffff;
 
     /* Text Colors */
-    --title-color: #33a378;
-    --subtite-color: #ffffe1;
-    --subtitle-color: #ffffe1;
+    --title-color: #ffffff;
+    --subtite-color: #ffffff;
+    --subtitle-color: #ffffff;
 
     /* Display Box */
     --display-bg-color: none;
