@@ -55,7 +55,6 @@ function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("project-slide");
     let dots = document.getElementsByClassName("dot");
-    let desciption = document.getElementById("slide-description");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -68,8 +67,10 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 
     //Change description text
-    let loadedText = slides[slideIndex-1].querySelector('.slide-description-text').textContent;
-    desciption.textContent = loadedText;
+    let desciption = document.getElementById("slide-description");
+    desciption.textContent = slides[slideIndex-1].querySelector('.slide-description-text').textContent;
+    let title = document.getElementById("slide-title");
+    title.textContent = slides[slideIndex-1].querySelector('.text').textContent;
 }
 
 
