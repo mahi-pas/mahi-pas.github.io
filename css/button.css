@@ -29,6 +29,24 @@
     }
 }
 
-a {
+.contact-link {
     all: unset;
+    font-family: "Oxygen";
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+.contact-link:hover {
+    filter: drop-shadow(0 0 0.75rem var(--button-glow-hover));
+    color: var(--dot-color);
+}
+
+@media only screen and (orientation:portrait) {
+
+    .contact-link {
+        display: block;
+        margin: 4vw;
+        font-size: 5vw;
+    }
+
 }
