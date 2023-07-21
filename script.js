@@ -1,4 +1,4 @@
-import "js/vibrate.js";
+import * as vibrate from "js/vibrate.js";
 
 // Animated Mesh Mouse Hover
 let mesh_mouse_hover = document.getElementById("mesh-mouse-hover");
