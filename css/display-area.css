@@ -43,7 +43,7 @@
     */
     background-color: var(--button-bg-hover);
     filter: drop-shadow(0 0 0.75rem var(--button-glow-hover));
-    transition: transform 0.3s;
+    transition: transform 0.3s 0s;
     transform: scale(1.04) rotate(-1deg);
 }
 
