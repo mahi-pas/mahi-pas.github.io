@@ -46,7 +46,7 @@
             <button class="button"
                 onclick='window.open("https://www.linkedin.com/in/mahi-pasarkar/", target="_blank");'>LinkedIn</button>
             <button class="button"
-                onclick='window.location.href="/EconomicEfficacy"'>Best State Economy Map</button>
+                onclick='window.location.href="https://rainyelephant.itch.io/", target="_blank"'>Itch.io</button>
         </div>
     </div>
 
@@ -88,97 +88,82 @@
     <a class="section-experience"></a>
     <div class="about-me hidden" id="move-up">
         <h1 id="smaller">Experience</h1>
-        <div class="experience-box hidden" id="first" onclick='toggleExperience("#NLP-research-info");'>
-        
+
+        <div class="experience-box hidden" id="first" onclick='toggleExperience("#geico-info");'>
             <div class="job-name">
-                <h1>Natural Language Processing for Structuring Disease Data</h1>
-                <h2>Researcher</h2>
+                <h1>GEICO</h1>
+                <h2>Full Stack Software Engineer II</h2>
             </div>
             <div class="job-date">
-                <h2>January 2024 - Present</h2>
+                <h2>July 2024 - Present</h2>
                 <span class="fas fa-caret-down first" align="right"></span>
             </div>
         </div>
-        <div class="experience-info" id="NLP-research-info">
+        <div class="experience-info" id="geico-info">
             <br>
             <ul>
-                <li>Using Natural Langauge Processing methods to take in unstructured disease reports for vector-borne and water-borne
-                diseases including Dengue, Zika, Chikungunya, and Malaria, and produce a structured database that can be used to answer
-                a broad range of crucial research questions.</li>
-                <li>Coordinating with other research group studying disease dynamics and predicting outbreak locations by supplying them
-                with data produced by our model.</li>
-
+                <li>Working on GEICO’s in-house alternative to cloud platforms like AWS using Go, Python, PostgreSQL, and React JS.</li>
+                <li>End to end development of VP analytics dashboard to track cloud usage and spending. Designed backend system and specification, implemented back end and front end UI. Created customized graph components for our specific needs.</li>
+                <li>Coordinated with stakeholders to understand requirements for VP analytics dashboard and communicated these with UX designers and colleagues, serving as the source of truth regarding the dashboard and coordinating sprint goals.</li>
+                <li>Transitioned front end to confederated UI system, requiring adoption of Typescript, Vite, and HUE UI components.</li>
+                <li>Enabling demand intake in front end and backend for cloud resource types such as Kafka, Kubernetes, and VMs.</li>
             </ul>
         </div>
-        <div class="experience-box hidden" id="first" onclick='toggleExperience("#submitty-info");'>
 
+        <div class="experience-box hidden" id="second" onclick='toggleExperience("#nlp-research-info");'>
+            <div class="job-name">
+                <h1>Natural Language Processing for Structuring Disease Data</h1>
+                <h2>First Author, Rensselaer Polytechnic Institute</h2>
+            </div>
+            <div class="job-date">
+                <h2>Jan 2024 - Dec 2024</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="nlp-research-info">
+            <br>
+            <ul>
+                <li>First author, published by NASA and IEEE. <a href="https://ntrs.nasa.gov/citations/20240015043" target="_blank">View publication</a>.</li>
+                <li>Used natural language processing methods to transform unstructured disease reports into machine readable format. Published parsing system using open science principles to aid research.</li>
+                <li>Team Lead: designed system architecture in Python and divided work among coauthors to meet weekly OKRs.</li>
+                <li>Coordinated with experts in epidemiology, meteorological data, and disease modeling to learn domain knowledge.</li>
+            </ul>
+        </div>
+
+        <div class="experience-box hidden" id="third" onclick='toggleExperience("#submitty-info");'>
             <div class="job-name">
                 <h1>Submitty</h1>
                 <h2>Full Stack Developer</h2>
             </div>
             <div class="job-date">
-                <h2>January 2023 - August 2023</h2>
+                <h2>Jan 2023 - Aug 2023</h2>
                 <span class="fas fa-caret-down first" align="right"></span>
             </div>
         </div>
         <div class="experience-info" id="submitty-info">
             <br>
             <ul>
-                <li>Using PHP, Javascript, Twig, Python, HTML, CSS, Python, and PostgreSQL to develop a website that manages courses for
-                computer science departments of several schools.</li>
-                <li>Developing major site features such as pronouns in user profiles, calendar overhauls such as filtering, coloring, and
-                fixing assignment setting bugs.</li>
-                <li>Implementing tests using Cypress.
-                </li>
-                <li>
-                    Improved security for Notebook zip downloads.
-                </li>
+                <li>Developed EdTech software for computer science courses used by several universities, using PHP, Python, Javascript, Twig, HTML, CSS, and PostgreSQL.</li>
+                <li>Developed major site features such as overhauling calendar system, adding pronouns to user profiles, and fixing major bugs such as assignment setting bugs and security for zip downloads that would expose answers to students.</li>
             </ul>
         </div>
-        <div class="experience-box hidden" id="second" onclick='toggleExperience("#sanofi-info");'>
 
+        <div class="experience-box hidden" id="fourth" onclick='toggleExperience("#sanofi-info");'>
             <div class="job-name">
                 <h1>Sanofi</h1>
-                <h2>Regulatory Intern</h2>
+                <h2>Global Regulatory Affairs Intern</h2>
             </div>
             <div class="job-date">
-                <h2>June 2022 - Present</h2>
+                <h2>Jun 2022 - Apr 2024</h2>
                 <span class="fas fa-caret-down first" align="right"></span>
             </div>
         </div>
         <div class="experience-info" id="sanofi-info">
             <br>
             <ul>
-                <li>Working with the regulatory department on Accumulus Synergy and FHIR standard in XML in order to test the
-                    Accumulus platform
-                    and help bring healthcare data to a unified cloud.</li>
-                <li>Supporting product life cycle management by creating documents such as GRCSD and Product Overviews
-                    based on regulatory
-                    information from various documents using Veeva Vault, Word, and Sharepoint.</li>
-                <li>Performing queries and remediating data in Veeva Vault RIM to assist in data integrity.</li>
-            </ul>
-        </div>
-        <div class="experience-box hidden" id="third" onclick='toggleExperience("#shuttle-tracker-info");'>
-
-            <div class="job-name">
-                <h1>Shuttle Tracker</h1>
-                <h2>Server Developer</h2>
-            </div>
-            <div class="job-date">
-                <h2>January 2022 - May 2022</h2>
-                <span class="fas fa-caret-down first" align="right"></span>
-            </div>
-        </div>
-        <div class="experience-info" id="shuttle-tracker-info">
-            <br>
-            <ul>
-                <li>Worked on a large project that serves the campus community by tracking the location of shuttles.
-                </li>
-                <li>Implemented analytics endpoints in the server using Swift, JSON, and PostgreSQL.</li>
-                <li>Designed solutions for server-end goals, such as receiving and storing analytics data from various
-                    front ends
-                    and calculating and displaying data quality for bus locations and documented thoroughly on the
-                    GitHub wiki.</li>
+                <li>Worked with regulatory department to test Accumulus digitization platform for documents in FHIR standard and XML.</li>
+                <li>Performed queries and remediated data in Veeva Vault RIM to assist in data integrity, supporting the documentation.</li>
+                <li>Created documents such as GRCSD and Product Overviews containing regulatory information to support compliance.</li>
             </ul>
         </div>
     </div>
@@ -202,8 +187,8 @@
             <ul>
                 <li>Dual Major in Computer Science (AI and Data Concentration) and Games and Simulations Arts and
                     Sciences</li>
-                <li>GPA: 3.67</li>
-                <li>Achieved Dean's Honors List 2020, 2021, 2022, and 2023</li>
+                <li>GPA: 3.7</li>
+                <li>Achieved Dean's Honors List 2020, 2021, 2022, 2023, and 2024</li>
                 <li>Google Developer Student Club Lead</li>
                 <li>Member of Computer Science Honors Society Upsilon Pi Epsilon</li>
                 <li>Member of the National Society of Leadership and Success</li>

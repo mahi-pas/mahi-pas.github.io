@@ -40,6 +40,10 @@
 
 .experience-box .job-name {
     flex: 1;
+
+    h1 {
+        letter-spacing: 0.1em;
+    }
 }
 
 .experience-box .job-date {
