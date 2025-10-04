@@ -39,4 +39,14 @@ Stores common colors and styles
     --dot-hover: #ffffff;
     --slideshow-element-background: #6e217b9f;
     --image-hover: #c23ea136;
+
+    /* Basic Styles */
+    a {
+        color: var(--subtitle-color);
+    }
+
+    a:hover {
+        filter: drop-shadow(0 0 0.75rem var(--button-glow-hover));
+        color: var(--dot-color);
+    }
 }
