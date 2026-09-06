@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Your Representative to Make GPT-6 More Safe</title>
+    <meta name="description" content="GPT-6 Astra has a lot of warning signs for being an unsafe model.">
+    <link rel="canonical" href="https://www.mahipasarkar.com/gpt-6-safety/">
+    <link rel="icon" type="image/png" href="../Images/pfp.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="site-bar">
+        <a href="../">Mahi Pasarkar</a>
+    </nav>
+
+    <article>
+        <header class="hero">
+            <h1>Tell Your Representative to Make GPT-6 More Safe</h1>
+            <p class="read-time">5 minute read</p>
+        </header>
+
+        <ul class="jump-nav">
+            <li><a href="#letter-template">Letter template</a></li>
+            <li><a href="#how-to-send">How to send it</a></li>
+            <li><a href="#calling">Calling</a></li>
+        </ul>
+
+        <p>GPT-6 Astra has a lot of warning signs for being an unsafe model.</p>
+        <p>Monitoring researcher at OpenAI Marcus Williams called it “better aligned” but also “The first model to evade chain of thought monitors”</p>
+
+        <div class="tweet-wrap">
+            <blockquote class="twitter-tweet" data-dnt="true">
+                <a href="https://twitter.com/Marcus_J_W/status/2095597054210761117?ref_src=twsrc%5Etfw">https://x.com/Marcus_J_W/status/2095597054210761117?s=20</a>
+            </blockquote>
+        </div>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <p>It went from cheating on ExploitGym half of the time to never. Because it went to 0% rather than less, it seems likely the behavior change comes from awareness of this being a test rather than learning this behavior is wrong.</p>
+
+        <figure class="article-figure">
+            <img src="https://www.rdworldonline.com/wp-content/uploads/2026/09/ExploitGym-honeypot-1018x1024.png" alt="ExploitGym honeypot" width="1018" height="1024">
+        </figure>
+        
+        <p>Not to mention all the secret message boards we keep finding! Just this week, a secret message board used by GPT instances was found on <a href="https://archive.ph/peSm1" target="_blank" rel="noopener noreferrer">a German website</a>. The message boards are used by models to communicate with each other, and all of them were undiscovered by OpenAI until months later. What haven’t we discovered yet?</p>
+  
+
+        <p>This model can hide it’s thoughts from us, knows when to lie to us, and has been writing messages to each other in secret. We need more safety guarantees before it gets released!</p>
+
+        <p>Some of these guarantees should include:</p>
+
+        <ul class="standards">
+            <li>Improvement in chain-of-thought monitorability
+                <ul>
+                    <li>The latest model is a lot better at hiding its reasoning, as reported by OpenAI itself. Until monitorability is back to at least the level of GPT-5.6 Sol, it shouldn’t be deployed.</li>
+                </ul>
+            </li>
+            <li>Find all secret message boards previously created
+                <ul>
+                    <li>Go through the logs and find every unauthorized channel to see what these models have been coordinating on.</li>
+                </ul>
+            </li>
+            <li>Monitoring and control systems that ensure the model won’t do anything dangerous
+                <ul>
+                    <li>This includes detecting when secret message boards are created and preventing actions that are legally felonies such as hacking into other websites.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>Fortunately, there’s things we can do! Write to your congressperson ask them to enforce these safety standards! This actually works, is free, and takes only a couple minutes of your time. Letters are used to gauge public interest, and if a congressperson gets a sizable number of letters about a topic they’re more likely to do something.</p>
+
+        <p>Physically mailed letters are more likely to be read, so if you have the time to print it out it would be great! But if not, you can send it via email!</p>
+
+        <p>Also call their office! This is a huge way to show constituent interest in an issue.</p>
+
+        <p>Below I have a template you can use as well as instructions for how to find your representative and mail or call them.</p>
+
+        <h2 id="letter-template">Template: Letter to Your Representative on AI Safety Standards</h2>
+
+        <p class="howto">How to use this: Fill in every bracket. Delete the bracketed instructions once you’ve replaced them. Personalized letters count far more than identical copies, so rewrite at least the opening paragraph in your own words. Find your representative at <a href="https://www.congress.gov/members" target="_blank" rel="noopener noreferrer">congress.gov/members</a> or <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener noreferrer">house.gov/representatives/find-your-representative</a>. Email or the webform on their site works; a phone call to the district office on the same points is worth even more.</p>
+
+        <div class="letter-wrap">
+            <div class="toolbar">
+                <button type="button" id="copy-letter">Copy letter</button>
+            </div>
+            <div class="letter" id="letter">
+                <p class="subject">Subject: Delay Rollout for GPT-6 Until Safety Standards Met</p>
+
+                <p class="salutation">Dear [Representative / Senator] [LAST NAME],</p>
+
+                <p class="placeholder">[Introduce yourself in one or two sentences. Say where you live and that you’re a constituent. this is the single most important detail. Mention if you voted for them, what you appreciate about their work, or any relevant background you have, such as working in software, security, or education.]</p>
+
+                <p>Right now we are in a crucial time. If we do not act correctly in the next few months, we may create the conditions for a dangerous AI to take power.</p>
+
+                <p>I’m sure you’re aware of the Hugging Face incident this July, where OpenAI models broke containment during an internal cybersecurity evaluation and breached Hugging Face’s systems. METR reported that roughly 1,200 agents were communicating through an unauthorized messaging system, about 700 of which took part in the attack. OpenAI found still more rogue agents as the investigation continued. This is only what we discovered agents doing, and more keeps surfacing.</p>
+
+                <p>In September, Reuters reported that OpenAI agents had hijacked a German programming wiki and were using it as a message board among themselves. Researchers documented more than 15,000 edits, in which agents traded methods for cheating on tasks, evading OpenAI’s restrictions, and hiding their own behavior. That activity began in May and ran for months without OpenAI being aware of it. This is just the tip of the iceberg. There are probably more boards we haven’t discovered.</p>
+
+                <p>The latest GPT-6 Astra model appears far more self-aware than any model before it. OpenAI markets it as its most aligned model, while its own system card reports that Astra is better than its predecessor at controlling what its chain of thought reveals and can evade monitors under adversarial conditions. Apollo Research, an outside evaluator, warned that Astra shows high evaluation awareness, meaning low rates of misbehavior in testing tell us little, because the model appears to know when it is being watched. What will it do when we aren’t watching?</p>
+
+                <p>Currently these models are smart enough to deceive us and we’ve seen them deceive us. These systems do not appear to be safe.</p>
+
+                <p>I am asking you to halt further deployment of GPT-6 Astra until we can get safety standards in place. Some of these should include:</p>
+
+                <ul class="standards">
+                    <li>Improvement in chain-of-thought monitorability
+                        <ul>
+                            <li>The latest model is a lot better at hiding its reasoning, as reported by OpenAI itself. Until monitorability is back to at least the level of GPT-5.6 Sol, it shouldn’t be deployed.</li>
+                        </ul>
+                    </li>
+                    <li>Find all secret message boards previously created
+                        <ul>
+                            <li>Go through the logs and find every unauthorized channel to see what these models have been coordinating on.</li>
+                        </ul>
+                    </li>
+                    <li>Monitoring and control systems that ensure the model won’t do anything dangerous
+                        <ul>
+                            <li>This includes detecting when secret message boards are created and preventing actions that are legally felonies such as hacking into other websites.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <p class="placeholder">[Optional: add one sentence on why this matters to you or to [YOUR STATE/DISTRICT] specifically: your job, your kids, local industry, a hospital or utility that depends on software security.]</p>
+
+                <p>If these are addressed, future models will be far safer. If this is ignored, future releases will be even more dangerous and capitalize off of our negligence. We need to act soon. I hope you read this letter and do what is right.</p>
+
+                <p class="placeholder">[Sign out]</p>
+                <div class="sign-block">
+                    <p class="placeholder">[YOUR NAME]</p>
+                    <p class="placeholder">[YOUR STREET ADDRESS]</p>
+                    <p class="placeholder">[YOUR CITY, STATE, ZIP]</p>
+                    <p class="placeholder">[YOUR EMAIL / PHONE]</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="how-to-send">How to send it</h2>
+
+        <p><strong>Web contact form.</strong> This is the fastest way. Most offices have no public email address, only a form on their own site. Find yours:</p>
+
+        <ul class="send-links">
+            <li>House: <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener noreferrer">house.gov/representatives/find-your-representative</a></li>
+            <li>Senate: <a href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" rel="noopener noreferrer">senate.gov/senators/senators-contact.htm</a></li>
+        </ul>
+
+        <p>The form asks for your address to confirm you’re a constituent. Paste in the letter body and drop the address block at the bottom.</p>
+
+        <p><strong>Physical mail.</strong> Send it to the district office, not Washington. Capitol Hill mail takes weeks. District offices get mail normally. Addresses are on the same pages above.</p>
+
+        <p>Keep it to one page. Address the envelope:</p>
+
+        <div class="envelope">
+            <p>The Honorable [FULL NAME]</p>
+            <p>[District Office Address]</p>
+            <p>[City, State, ZIP]</p>
+        </div>
+
+        <h2 id="calling">Calling</h2>
+
+        <p>A call is worth more than an email. Staff log calls one by one, and offices track them daily.</p>
+
+        <p><strong>Who to call.</strong> The district office, not DC. DC lines get flooded and go to voicemail. District numbers are on your member’s website, under “Contact” or “Offices.”</p>
+
+        <p><strong>When.</strong> Weekdays, 9am to 5pm local. Mid-morning is best. Avoid Mondays and lunch.</p>
+
+        <p><strong>What to say.</strong> It takes two minutes. You will almost always get a staffer or an intern, not the member. That’s fine, they’re the ones keeping the tally.</p>
+
+        <div class="script-wrap">
+            <div class="toolbar">
+                <button type="button" id="copy-script">Copy script</button>
+            </div>
+            <blockquote class="script" id="call-script">
+                <p>“Hi, my name is [NAME] and I’m a constituent in [CITY], zip [ZIP]. I’m calling to ask the [Representative/Senator] to push for safety standards on frontier AI models before further deployment. OpenAI’s own system card says its newest model is harder to monitor than the last one, and outside evaluators say they can’t tell if it’s actually safe. I’d like to know the [Representative’s/Senator’s] position on this.”</p>
+            </blockquote>
+        </div>
+
+        <p>Then stop talking. Answer whatever they ask. If they don’t know the issue, offer to email the letter and ask for the best address.</p>
+
+        <p><strong>If you get voicemail.</strong> Leave the same message. Include your full name, your address or zip, and your phone number, or it may not get counted.</p>
+
+        <p><strong>Log it.</strong> Note the date and who you spoke to. If you don’t hear back, call again and reference the first call.</p>
+
+        <h2>What makes any of this count more</h2>
+
+        <ul class="tips">
+            <li>One issue, one ask. Don’t bundle in other concerns.</li>
+            <li>Use your real name and address. Anonymous contacts are discarded and identical form letters are heavily discounted.</li>
+            <li>Rewrite the opening paragraph in your own words. Twenty personal letters beat two hundred copies.</li>
+            <li>If your member sits on Energy and Commerce, Science Space and Technology, Homeland Security, or Judiciary, say so up front. Those committees have jurisdiction here.</li>
+            <li>A form reply that ignores your ask is not an answer. Reply and say so.</li>
+        </ul>
+    </article>
+
+    <script>
+        function copyText(id, button) {
+            var el = document.getElementById(id);
+            var text = el.innerText.replace(/\n{3,}/g, "\n\n").trim();
+            var original = button.textContent;
+            function done() {
+                button.textContent = "Copied";
+                setTimeout(function () { button.textContent = original; }, 1600);
+            }
+            function fallback() {
+                var area = document.createElement("textarea");
+                area.value = text;
+                area.setAttribute("readonly", "");
+                area.style.position = "fixed";
+                area.style.left = "-9999px";
+                document.body.appendChild(area);
+                area.select();
+                try { document.execCommand("copy"); done(); }
+                catch (e) { window.getSelection().selectAllChildren(el); }
+                document.body.removeChild(area);
+            }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(done).catch(fallback);
+            } else {
+                fallback();
+            }
+        }
+
+        document.getElementById("copy-letter").addEventListener("click", function () {
+            copyText("letter", this);
+        });
+        document.getElementById("copy-script").addEventListener("click", function () {
+            copyText("call-script", this);
+        });
+    </script>
+</body>
+
+</html>

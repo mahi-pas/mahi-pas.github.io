@@ -1,0 +1,264 @@
+:root {
+    --ink: #111;
+    --muted: #666;
+    --rule: #e6e6e6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1.1875rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    overflow-wrap: anywhere;
+}
+
+a:hover {
+    color: var(--muted);
+}
+
+.site-bar {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 0;
+    font-size: 0.875rem;
+}
+
+.site-bar a {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.site-bar a:hover {
+    color: var(--ink);
+}
+
+article {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 6rem;
+}
+
+header.hero {
+    margin-bottom: 2rem;
+}
+
+header.hero h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+}
+
+.read-time {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 0.875rem;
+}
+
+p {
+    margin: 0 0 1.25rem;
+}
+
+h2 {
+    margin: 3.5rem 0 1rem;
+    font-size: 1.4375rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+}
+
+.jump-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.5rem;
+    margin: 0 0 2.5rem;
+    padding: 0 0 1.75rem;
+    border-bottom: 1px solid var(--rule);
+    list-style: none;
+    font-size: 0.9375rem;
+    color: var(--muted);
+}
+
+.tweet-wrap {
+    margin: 2rem 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.tweet-wrap blockquote.twitter-tweet {
+    margin: 0;
+}
+
+.article-figure {
+    margin: 2rem 0;
+    max-width: 34rem;
+}
+
+.article-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.standards,
+.tips,
+.send-links {
+    margin: 0 0 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.standards > li,
+.tips > li,
+.send-links > li {
+    margin-bottom: 0.75rem;
+}
+
+.standards ul {
+    margin: 0.35rem 0 0;
+    padding-left: 1.25rem;
+    color: var(--muted);
+}
+
+.standards ul li {
+    margin-bottom: 0;
+}
+
+.howto {
+    color: var(--muted);
+    font-size: 0.9375rem;
+}
+
+.letter-wrap,
+.script-wrap {
+    margin: 1.5rem 0 2rem;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.75rem;
+}
+
+.toolbar button {
+    appearance: none;
+    border: 1px solid var(--rule);
+    background: none;
+    color: var(--muted);
+    font: inherit;
+    font-size: 0.8125rem;
+    padding: 0.35rem 0.7rem;
+    cursor: pointer;
+}
+
+.toolbar button:hover,
+.toolbar button:focus-visible {
+    border-color: var(--ink);
+    color: var(--ink);
+    outline: none;
+}
+
+.letter {
+    border: 1px solid var(--rule);
+    padding: 2.25rem 2rem;
+}
+
+.letter .subject {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.letter .placeholder {
+    color: var(--muted);
+}
+
+.letter .sign-block p {
+    margin: 0;
+    color: var(--muted);
+}
+
+.envelope {
+    margin: 0 0 1.25rem;
+    padding-left: 1.25rem;
+    border-left: 1px solid var(--rule);
+    color: var(--muted);
+}
+
+.envelope p {
+    margin: 0;
+}
+
+.script {
+    margin: 0;
+    padding-left: 1.25rem;
+    border-left: 2px solid var(--ink);
+}
+
+.script p {
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 1.0625rem;
+    }
+
+    .site-bar {
+        padding: 1.75rem 1.25rem 0;
+    }
+
+    article {
+        padding: 1.75rem 1.25rem 4rem;
+    }
+
+    .letter {
+        padding: 1.5rem 1.25rem;
+    }
+}
+
+@media print {
+    body {
+        font-size: 11pt;
+        line-height: 1.5;
+    }
+
+    .site-bar,
+    .jump-nav,
+    .toolbar,
+    .tweet-wrap {
+        display: none;
+    }
+
+    article {
+        max-width: none;
+        padding: 0;
+    }
+
+    .letter,
+    .script,
+    .envelope {
+        break-inside: avoid;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
