@@ -47,7 +47,7 @@
     <a class="section-title"></a>
     <div class="mesh-overlay">
         <h1 id="name">Mahi Pasarkar</h1>
-        <h2 id="title">✧ Software Engineer ✧</h2>
+        <h2 id="title">✧ AI Safety · Software Engineer ✧</h2>
         <div class="button-row" id="button-row">
             <button class="button" onclick='window.open("Resume/ResumeCS.pdf", target="_blank");'>Resume</button>
             <button class="button"
@@ -83,25 +83,40 @@
     <div class="about-me hidden" id="move-up">
         <h1>Hi, I'm Mahi!</h1>
         <!--<img src="Images/pfp.png">-->
-        <p>From a young age I always wondered how things worked. I would take apart toys to see the gears inside.
-            This curiosity led me to programming. I made my first text adventure in batch in 5th grade,
-            and by high school I was president of Senior Division Computer League!
-            I'm a rising senior at Rensselaer Polytechnic Institute,
-            and I'm dual majoring in Computer Science
-            (with a concentration in AI and Data) and
-            Games and Simulation Arts and Sciences. At RPI, I am a Google Developer Student Club Lead and a 
-            member of the Computer Science Honors Society Upsilon Pi
-            Epsilon.</p>
+        <p>I have boundless gratitude for the sacrifices of the past generations to build the world we live in today. It is my duty to pay this forward to the next generation and make the world even better than it is now. I am dedicating my life to AI Safety because I love humanity.
+            <br><br>
+            I'm currently working on field-building, running a technical AI Safety course called <a href="https://gradualempowerment.org/course" target="_blank">GEAR</a>. I'm also a software engineer at GEICO, where I work on cloud infrastructure and observability. My timelines are short and I want to work towards safety in any way I can. If you know any way I can help, be it technical research, policy work, advocacy, or field-building, please <a href="#contact" onclick='smoothScroll(".section-contact-me"); return false;'>contact me</a>.
+            <br><br>
+            I have technical skills as a software engineer, organizing and speaking skills as a fieldbuilder and organizer of <a href="https://workingtheories.nyc" target="_blank">workingtheories.nyc</a>, and a strong work ethic.</p>
     </div>
 
     <a class="section-experience"></a>
     <div class="about-me hidden" id="move-up">
         <h1 id="smaller">Experience</h1>
 
-        <div class="experience-box hidden" id="first" onclick='toggleExperience("#geico-info");'>
+        <div class="experience-box hidden" id="first" onclick='toggleExperience("#gear-info");'>
+            <div class="job-name">
+                <h1>Gradual Empowerment</h1>
+                <h2>Founder</h2>
+            </div>
+            <div class="job-date">
+                <h2>Sep 2026 - Present</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="gear-info">
+            <br>
+            <ul>
+                <li>Running a 13-week technical AI Safety course, <a href="https://gradualempowerment.org/course" target="_blank">GEAR</a>, which covers a condensed version of the ARENA curriculum.</li>
+                <li>Funded by a BlueDot Grant. First cohort had 250+ applicants and accepted 40.</li>
+                <li>Hired and managed a TA and organized curriculum to emphasize reading papers and formulating extensions.</li>
+            </ul>
+        </div>
+
+        <div class="experience-box hidden" id="second" onclick='toggleExperience("#geico-info");'>
             <div class="job-name">
                 <h1>GEICO</h1>
-                <h2>Full Stack Software Engineer II</h2>
+                <h2>Software Engineer II</h2>
             </div>
             <div class="job-date">
                 <h2>July 2024 - Present</h2>
@@ -111,15 +126,32 @@
         <div class="experience-info" id="geico-info">
             <br>
             <ul>
-                <li>Working on GEICO’s in-house alternative to cloud platforms like AWS using Go, Python, PostgreSQL, and React JS.</li>
-                <li>End to end development of VP analytics dashboard to track cloud usage and spending. Designed backend system and specification, implemented back end and front end UI. Created customized graph components for our specific needs.</li>
-                <li>Coordinated with stakeholders to understand requirements for VP analytics dashboard and communicated these with UX designers and colleagues, serving as the source of truth regarding the dashboard and coordinating sprint goals.</li>
-                <li>Transitioned front end to confederated UI system, requiring adoption of Typescript, Vite, and HUE UI components.</li>
-                <li>Enabling demand intake in front end and backend for cloud resource types such as Kafka, Kubernetes, and VMs.</li>
+                <li>Managing a team of three and creating cloud observability system CapOpticon to monitor usage of GEICO’s entire cloud. Tracking over 11,000 cloud resources to find anomalies in usage and suggest right-sizing. Found over 1,500 unused resources and identified 58,000 overprovisioned vCPU cores and 182,000 overprovisioned GiB of RAM.</li>
+                <li>Built a daily Python ETL pipeline consolidating hardware and utilization data across distinct sources in GEICO’s fleet of data centers, reconciling 775 physical servers into coherent data meant to understand our stock and empower purchasing and resource allocation decisions.</li>
+                <li>Founded an innovation incubator giving employees time to work on unsolved problems, organized it for the Infrastructure Engineering department resulting in 36 new projects, 5 of which are now production systems.</li>
+                <li>Mentoring two junior engineers from different departments, nurturing their engineering and career skills.</li>
             </ul>
         </div>
 
-        <div class="experience-box hidden" id="second" onclick='toggleExperience("#nlp-research-info");'>
+        <div class="experience-box hidden" id="third" onclick='toggleExperience("#working-theories-info");'>
+            <div class="job-name">
+                <h1>Working Theories NYC</h1>
+                <h2>Founder</h2>
+            </div>
+            <div class="job-date">
+                <h2>New York City</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="working-theories-info">
+            <br>
+            <ul>
+                <li>Organizing social games in NYC meant to congregate high openness thinkers. Examples include Hivemind, which restricted language to only refer to a collective, or Judge a Book By Its Cover, which tested first-impression accuracy. <a href="https://workingtheories.nyc" target="_blank">workingtheories.nyc</a></li>
+                <li>Led large groups of over 30 people, garnering over 250 RSVPs for some events.</li>
+            </ul>
+        </div>
+
+        <div class="experience-box hidden" id="fourth" onclick='toggleExperience("#nlp-research-info");'>
             <div class="job-name">
                 <h1>Natural Language Processing for Structuring Disease Data</h1>
                 <h2>First Author, Rensselaer Polytechnic Institute</h2>
@@ -132,14 +164,13 @@
         <div class="experience-info" id="nlp-research-info">
             <br>
             <ul>
-                <li>First author, published by NASA and IEEE. <a href="https://ntrs.nasa.gov/citations/20240015043" target="_blank">View publication</a>.</li>
-                <li>Used natural language processing methods to transform unstructured disease reports into machine readable format. Published parsing system using open science principles to aid research.</li>
+                <li>First author, published by NASA and IEEE. Processed thousands of unstructured disease reports into machine readable format. <a href="https://ntrs.nasa.gov/citations/20240015043" target="_blank">View publication</a>.</li>
                 <li>Team Lead: designed system architecture in Python and divided work among coauthors to meet weekly OKRs.</li>
-                <li>Coordinated with experts in epidemiology, meteorological data, and disease modeling to learn domain knowledge.</li>
+                <li>Engineered a fault tolerant pipeline with extensible modules, logging, and debugging for future research use.</li>
             </ul>
         </div>
 
-        <div class="experience-box hidden" id="third" onclick='toggleExperience("#submitty-info");'>
+        <div class="experience-box hidden" id="fifth" onclick='toggleExperience("#submitty-info");'>
             <div class="job-name">
                 <h1>Submitty</h1>
                 <h2>Full Stack Developer</h2>
@@ -157,7 +188,7 @@
             </ul>
         </div>
 
-        <div class="experience-box hidden" id="fourth" onclick='toggleExperience("#sanofi-info");'>
+        <div class="experience-box hidden" id="sixth" onclick='toggleExperience("#sanofi-info");'>
             <div class="job-name">
                 <h1>Sanofi</h1>
                 <h2>Global Regulatory Affairs Intern</h2>
@@ -196,7 +227,7 @@
             <ul>
                 <li>Dual Major in Computer Science (AI and Data Concentration) and Games and Simulations Arts and
                     Sciences</li>
-                <li>GPA: 3.7</li>
+                <li>GPA: 3.7. Graduated Magna Cum Laude</li>
                 <li>Achieved Dean's Honors List 2020, 2021, 2022, 2023, and 2024</li>
                 <li>Google Developer Student Club Lead</li>
                 <li>Member of Computer Science Honors Society Upsilon Pi Epsilon</li>
@@ -229,6 +260,42 @@
     <a class="section-projects"></a>
     <div class="about-me hidden" id="move-up">
         <h1 id="smaller">Projects</h1>
+        <div class="experience-box hidden" id="first" onclick='toggleExperience("#jev-info");'>
+            <div class="job-name">
+                <h1>Jev as a CoT Monitor</h1>
+                <h2>AI Safety</h2>
+            </div>
+            <div class="job-date">
+                <h2>LessWrong</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="jev-info">
+            <br>
+            <ul>
+                <li>Compared Jev with Sonnet 5 and GPT 5.6 Luna at identifying harm from 2,200 thought traces from ReasoningShield.</li>
+                <li>Jev had comparable performance, but was 6x faster and 500x cheaper, showing promise as a control tool at scale. <a href="https://www.lesswrong.com/posts/GHCNKiFzDYThTELFp/jev-as-a-cot-monitor-6x-faster-and-500x-cheaper" target="_blank">Read the post</a>.</li>
+            </ul>
+        </div>
+
+        <div class="experience-box hidden" id="second" onclick='toggleExperience("#duckweed-info");'>
+            <div class="job-name">
+                <h1>Project Duckweed</h1>
+                <h2>Sustainable Alternative Protein</h2>
+            </div>
+            <div class="job-date">
+                <h2>Research</h2>
+                <span class="fas fa-caret-down first" align="right"></span>
+            </div>
+        </div>
+        <div class="experience-info" id="duckweed-info">
+            <br>
+            <ul>
+                <li>Identified Wolffia globosa as an alternative protein candidate due to being 40% protein by weight and easy to grow.</li>
+                <li>Wolffia globosa is a hyperaccumulator of manganese and has a high iron content. To avoid exceeding the tolerable upper limit, I grew it in a closed hydroponics system. I learned about bioconcentration factors and designed my own fertilizer. By my calculation, the iron content would be too low to grow, but I ran the experiment to see if it could.</li>
+                <li>Unfortunately, having below the tolerable upper limit of iron for 40g of protein is not possible, but I learned a lot about an unrelated field.</li>
+            </ul>
+        </div>
         <p style="text-align:center">Click the image to see each project!</p>
         <div class="slideshow-area">
             <div>
